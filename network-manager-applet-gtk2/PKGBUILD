@@ -27,10 +27,10 @@ build() {
       --localstatedir=/var \
       --libexecdir=/usr/lib/networkmanager \
       --disable-static \
-      --disable-more-warnings \
       --disable-maintainer-mode \
-      --disable-migration
-  make
+      --disable-migration \
+      --disable-more-warnings 
+  make 
 }
 
 package() {
