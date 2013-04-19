@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=indicator-china-weather
+Comment=Indicator applet for current weather conditions in China
+GenericName=China Weather Applet
+Categories=GNOME;Utility;
+Exec=/usr/bin/indicator-china-weather
+Icon=chinaweather.png
+Hidden=False
+X-GNOME-Autostart-enabled=true
+Type=Application

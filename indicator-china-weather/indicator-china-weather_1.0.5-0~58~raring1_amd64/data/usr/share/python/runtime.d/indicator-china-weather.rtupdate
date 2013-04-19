@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p indicator-china-weather /usr/share/indicator-china-weather
+	pycompile -p indicator-china-weather -V 2.6- /usr/share/indicator-china-weather
+fi

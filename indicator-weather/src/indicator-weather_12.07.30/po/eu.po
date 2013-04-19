@@ -1,0 +1,485 @@
+# Basque translation for weather-indicator
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the weather-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: weather-indicator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-06-22 02:48-0700\n"
+"PO-Revision-Date: 2011-11-02 23:43+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-11-04 05:39+0000\n"
+"X-Generator: Launchpad (build 14231)\n"
+
+#: ../data/ui/PreferencesDialog.ui.h:1
+msgid "<b>Notifications</b>"
+msgstr "<b>Jakinarazpenak</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:2
+msgid "<b>Temperature Scale</b>"
+msgstr "<b>Tenperatura Eskala</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:3
+msgid "<b>Weather Data Source</b>"
+msgstr "<b>Eguraldi datuen jatorria</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:4
+msgid "<b>Wind Speed Unit</b>"
+msgstr "<b>Haizearen Abiadura Unitatea</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:5
+msgid "Beaufort"
+msgstr "Beaufort"
+
+#: ../data/ui/PreferencesDialog.ui.h:6
+msgid "Enable the Weather Indicator Applet"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:7
+msgid "General"
+msgstr "Orokorra"
+
+#: ../data/ui/PreferencesDialog.ui.h:8
+msgid "Google"
+msgstr "Google"
+
+#: ../data/ui/PreferencesDialog.ui.h:9
+msgid "Imperial (°F)"
+msgstr "Inperiala (°F)"
+
+#: ../data/ui/PreferencesDialog.ui.h:10
+msgid "Km per hour (km/h)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:11
+msgid "Knots"
+msgstr "Korapiloak"
+
+#: ../data/ui/PreferencesDialog.ui.h:12
+msgid "Locations"
+msgstr "Kokalekuak"
+
+#: ../data/ui/PreferencesDialog.ui.h:13
+msgid "Meter per second (m/s)"
+msgstr "Metro segunduko (m/s)"
+
+#: ../data/ui/PreferencesDialog.ui.h:14
+msgid "Miles per hour (mph)"
+msgstr "Milia orduko (mph)"
+
+#: ../data/ui/PreferencesDialog.ui.h:15
+msgid "No notifications"
+msgstr "Jakinarazpenik ez"
+
+#: ../data/ui/PreferencesDialog.ui.h:16
+msgid "Only use notifications to give severe weather alerts"
+msgstr "Erabili jakinarazpenak soilik eguraldi txar alertetarako"
+
+#: ../data/ui/PreferencesDialog.ui.h:17
+msgid "SI (metric, °C)"
+msgstr "SI (metrikoa, °C)"
+
+#: ../data/ui/PreferencesDialog.ui.h:18
+msgid "Show temperature near indicator"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:19
+msgid "Units"
+msgstr "Unitateak"
+
+#: ../data/ui/PreferencesDialog.ui.h:20
+msgid "Update every"
+msgstr "Eguneratu"
+
+#: ../data/ui/PreferencesDialog.ui.h:21
+msgid "Use notifications to give every weather condition change"
+msgstr "Erabili jakinarazpenak eguraldiaren edozein aldaketa jakinarazteko"
+
+#: ../data/ui/PreferencesDialog.ui.h:22
+msgid "Weather Indicator Preferences"
+msgstr "Eguraldi Adierazlearen Hobespenak"
+
+#: ../data/ui/PreferencesDialog.ui.h:23
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: ../data/ui/PreferencesDialog.ui.h:24
+msgid "minutes"
+msgstr "minututik behin"
+
+#: ../bin/indicator-weather.py:463
+msgid "Unknown error occurred while picking up weather data"
+msgstr ""
+
+#: ../bin/indicator-weather.py:551
+msgid "Tornado"
+msgstr "Tornadoa"
+
+#: ../bin/indicator-weather.py:552
+msgid "Tropical storm"
+msgstr "Ekaitz tropikala"
+
+#: ../bin/indicator-weather.py:553
+msgid "Hurricane"
+msgstr "Urakana"
+
+#: ../bin/indicator-weather.py:554
+msgid "Severe thunderstorms"
+msgstr "Trumoi-ekaitz gogorrak"
+
+#: ../bin/indicator-weather.py:555
+msgid "Thunderstorms"
+msgstr "Trumoi-ekaitzak"
+
+#: ../bin/indicator-weather.py:556
+msgid "Mixed rain and snow"
+msgstr "Euria eta elurra"
+
+#. Use American meaning of sleet - see http://en.wikipedia.org/wiki/Sleet
+#: ../bin/indicator-weather.py:558
+msgid "Mixed rain and sleet"
+msgstr "Euria eta elurbustia"
+
+#: ../bin/indicator-weather.py:559
+msgid "Mixed snow and sleet"
+msgstr "Elurra eta elurbustia"
+
+#: ../bin/indicator-weather.py:560
+msgid "Freezing drizzle"
+msgstr "Zirimiri izoztua"
+
+#: ../bin/indicator-weather.py:561
+msgid "Drizzle"
+msgstr "Zirimiria"
+
+#: ../bin/indicator-weather.py:562
+msgid "Freezing rain"
+msgstr "Euri izoztua"
+
+#: ../bin/indicator-weather.py:563 ../bin/indicator-weather.py:564
+msgid "Showers"
+msgstr "Zaparradak"
+
+#: ../bin/indicator-weather.py:565
+msgid "Snow flurries"
+msgstr "Elur-jasak"
+
+#: ../bin/indicator-weather.py:566
+msgid "Light snow showers"
+msgstr "Elur zaparrada arinak"
+
+#: ../bin/indicator-weather.py:567
+msgid "Blowing snow"
+msgstr "Elur-jasa haizetsua"
+
+#: ../bin/indicator-weather.py:568
+msgid "Snow"
+msgstr "Elurra"
+
+#: ../bin/indicator-weather.py:569
+msgid "Hail"
+msgstr "Kazkabarra"
+
+#: ../bin/indicator-weather.py:570
+msgid "Sleet"
+msgstr "Elurbustia"
+
+#: ../bin/indicator-weather.py:571
+msgid "Dust"
+msgstr "Hautsa"
+
+#: ../bin/indicator-weather.py:572
+msgid "Foggy"
+msgstr "Lainotsua"
+
+#: ../bin/indicator-weather.py:573
+msgid "Haze"
+msgstr "Gandua"
+
+#: ../bin/indicator-weather.py:574
+msgid "Smoky"
+msgstr "Ketsua"
+
+#: ../bin/indicator-weather.py:575
+msgid "Blustery"
+msgstr "Ekaiztsu"
+
+#: ../bin/indicator-weather.py:576
+msgid "Windy"
+msgstr "Haizetsua"
+
+#: ../bin/indicator-weather.py:577
+msgid "Cold"
+msgstr "Hotza"
+
+#: ../bin/indicator-weather.py:578
+msgid "Cloudy"
+msgstr "Hodeitsua"
+
+#: ../bin/indicator-weather.py:579 ../bin/indicator-weather.py:580
+msgid "Mostly cloudy"
+msgstr "Nagusiki hodeitsua"
+
+#: ../bin/indicator-weather.py:581 ../bin/indicator-weather.py:582
+#: ../bin/indicator-weather.py:596
+msgid "Partly cloudy"
+msgstr "Nahiko hodeitsua"
+
+#: ../bin/indicator-weather.py:583
+msgid "Clear"
+msgstr "Oskarbi"
+
+#: ../bin/indicator-weather.py:584
+msgid "Sunny"
+msgstr "Eguzkitsua"
+
+#: ../bin/indicator-weather.py:585 ../bin/indicator-weather.py:586
+msgid "Fair"
+msgstr "Ederra"
+
+#: ../bin/indicator-weather.py:587
+msgid "Mixed rain and hail"
+msgstr "Euria eta kazkabarra"
+
+#: ../bin/indicator-weather.py:588
+msgid "Hot"
+msgstr "Beroa"
+
+#: ../bin/indicator-weather.py:589
+msgid "Isolated thunderstorms"
+msgstr "Trumoi-ekaitz isolatuak"
+
+#: ../bin/indicator-weather.py:590 ../bin/indicator-weather.py:591
+msgid "Scattered thunderstorms"
+msgstr "Trumoi-ekaitz sakabanatuak"
+
+#: ../bin/indicator-weather.py:592
+msgid "Scattered showers"
+msgstr "Zaparrada sakabanatuak"
+
+#: ../bin/indicator-weather.py:593 ../bin/indicator-weather.py:595
+msgid "Heavy snow"
+msgstr "Elur-jasa"
+
+#: ../bin/indicator-weather.py:594
+msgid "Scattered snow showers"
+msgstr "Elur zaparrada sakabanatuak"
+
+#: ../bin/indicator-weather.py:597
+msgid "Thundershowers"
+msgstr "Zaparrada ekaiztsuak"
+
+#: ../bin/indicator-weather.py:598
+msgid "Snow showers"
+msgstr "Elur zaparradak"
+
+#: ../bin/indicator-weather.py:599
+msgid "Isolated thundershowers"
+msgstr "Zaparrada ekaiztsu sakabanatuak"
+
+#: ../bin/indicator-weather.py:600 ../bin/indicator-weather.py:622
+#: ../bin/indicator-weather.py:627 ../bin/indicator-weather.py:645
+#: ../bin/indicator-weather.py:654 ../bin/indicator-weather.py:664
+#: ../bin/indicator-weather.py:748 ../bin/indicator-weather.py:1730
+msgid "Unknown condition"
+msgstr "Egoera ezezaguna"
+
+#: ../bin/indicator-weather.py:755 ../bin/indicator-weather.py:761
+msgid "Humidity"
+msgstr "Hezetasuna"
+
+#: ../bin/indicator-weather.py:782
+msgid "Pressure"
+msgstr ""
+
+#: ../bin/indicator-weather.py:812
+msgid "Temperature"
+msgstr ""
+
+#: ../bin/indicator-weather.py:836 ../bin/indicator-weather.py:837
+#: ../bin/indicator-weather.py:838
+msgid "Unknown"
+msgstr ""
+
+#: ../bin/indicator-weather.py:845
+msgid "Wind"
+msgstr "Haizea"
+
+#: ../bin/indicator-weather.py:872
+msgid "Sunrise"
+msgstr "Egunsentia"
+
+#: ../bin/indicator-weather.py:876
+msgid "Sunset"
+msgstr "Ilunsentia"
+
+#. Short wind direction - north
+#: ../bin/indicator-weather.py:889
+msgid "N"
+msgstr ""
+
+#: ../bin/indicator-weather.py:891
+msgid "NE"
+msgstr ""
+
+#: ../bin/indicator-weather.py:893
+msgid "E"
+msgstr ""
+
+#: ../bin/indicator-weather.py:895
+msgid "SE"
+msgstr ""
+
+#: ../bin/indicator-weather.py:897
+msgid "S"
+msgstr ""
+
+#: ../bin/indicator-weather.py:899
+msgid "SW"
+msgstr ""
+
+#: ../bin/indicator-weather.py:901
+msgid "W"
+msgstr ""
+
+#: ../bin/indicator-weather.py:903
+msgid "NW"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1074
+msgid "Set Up Weather..."
+msgstr "Ezarri Eguraldia..."
+
+#: ../bin/indicator-weather.py:1176
+msgid "Forecast"
+msgstr ""
+
+#. #Preferences
+#: ../bin/indicator-weather.py:1182
+msgid "Preferences..."
+msgstr "Hobespenak..."
+
+#. #About
+#: ../bin/indicator-weather.py:1188
+msgid "About..."
+msgstr "Honi buruz..."
+
+#: ../bin/indicator-weather.py:1289
+msgid "Refreshing, please wait"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1291 ../bin/indicator-weather.py:1293
+#: ../bin/indicator-weather.py:1295
+msgid "Refresh"
+msgstr "Freskatu"
+
+#: ../bin/indicator-weather.py:1293
+msgid "just now"
+msgstr "oraintxe bertan"
+
+#: ../bin/indicator-weather.py:1295
+#, python-format
+msgid "%d min. ago"
+msgstr "duela %d min."
+
+#: ../bin/indicator-weather.py:1436
+msgid "Severe weather alert"
+msgstr "Alerta eguraldi txarra dela eta"
+
+#: ../bin/indicator-weather.py:1454 ../indicator-weather.desktop.in.h:2
+msgid "Weather Indicator"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1466
+msgid "translator-credits"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1684
+msgid "Weather Forecast for "
+msgstr "Eguraldi Iragarpena: "
+
+#: ../bin/indicator-weather.py:1739
+msgid "High"
+msgstr "Altua"
+
+#: ../bin/indicator-weather.py:1741
+msgid "Low"
+msgstr "Baxua"
+
+#: ../bin/indicator-weather.py:1842 ../data/ui/Assistant.ui.h:4
+msgid "Label:"
+msgstr "Etiketa:"
+
+#: ../bin/indicator-weather.py:1932
+msgid "Another instance of this program is already running"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:1
+msgid "<b>Home</b>"
+msgstr "<b>Etxea</b>"
+
+#: ../data/ui/Assistant.ui.h:2
+msgid "<b>Orange, Texas</b>"
+msgstr "<b>Orange, Texas</b>"
+
+#: ../data/ui/Assistant.ui.h:3
+msgid "Add a location"
+msgstr "Gehitu kokaleku bat"
+
+#: ../data/ui/Assistant.ui.h:5
+msgid "Location:"
+msgstr "Kokalekua"
+
+#: ../data/ui/Assistant.ui.h:6
+msgid "Name the location"
+msgstr "Kokalekua izendatu"
+
+#: ../data/ui/Assistant.ui.h:7
+msgid "Please enter a name for this location:"
+msgstr "Sartu kokaleku honen izena:"
+
+#: ../data/ui/Assistant.ui.h:8
+msgid ""
+"Please review the choices below. If anything is not correct, please go back "
+"and select the correct options."
+msgstr ""
+"Mesedez ikuskatu beheko aukerak. Zerbait ez badago ondo, mesedez itzuli "
+"atzera eta hautatu aukera zuzenak."
+
+#: ../data/ui/Assistant.ui.h:9
+msgid "Please search our database for your location:"
+msgstr "Bilatu zure kokalekua gure datu-basean:"
+
+#: ../data/ui/Assistant.ui.h:10
+msgid "Review choices"
+msgstr "Ikuskatu aukerak"
+
+#: ../data/ui/Assistant.ui.h:11
+msgid "Search"
+msgstr "Bilatu"
+
+#: ../data/ui/Assistant.ui.h:12
+msgid "Select a location"
+msgstr "Hautatu kokaleku bat"
+
+#: ../data/ui/ExtendedForecast.ui.h:1
+msgid "Extended Forecast"
+msgstr ""
+
+#: ../indicator-weather.desktop.in.h:1
+msgid ""
+"A weather indicator that displays information for one or multiple places in "
+"the world"
+msgstr ""
+
+#~ msgid "Humidex"
+#~ msgstr "Humidex"
+
+#~ msgid "Visibility"
+#~ msgstr "Ikusgarritasuna"

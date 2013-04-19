@@ -1,0 +1,910 @@
+# Korean translation for weather-indicator
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the weather-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: weather-indicator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 02:48-0700\n"
+"PO-Revision-Date: 2011-03-11 03:49+0000\n"
+"Last-Translator: Ernesto2k <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-06-23 05:53+0000\n"
+"X-Generator: Launchpad (build 13168)\n"
+"Language: ko\n"
+
+#: ../data/ui/PreferencesDialog.ui.h:1
+msgid "<b>Notifications</b>"
+msgstr "<b>알림</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:2
+msgid "<b>Temperature Scale</b>"
+msgstr "<b>기온 단위</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:3
+msgid "<b>Weather Data Source</b>"
+msgstr "<b>날씨 정보를 가져올 곳</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:4
+msgid "<b>Wind Speed Unit</b>"
+msgstr "<b>풍속 단위</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:5
+msgid "Beaufort"
+msgstr "보퍼트"
+
+#: ../data/ui/PreferencesDialog.ui.h:6
+msgid "Enable the Weather Indicator Applet"
+msgstr "날씨 알리미 애플릿 사용"
+
+#: ../data/ui/PreferencesDialog.ui.h:7
+msgid "General"
+msgstr "일반"
+
+#: ../data/ui/PreferencesDialog.ui.h:8
+msgid "Google"
+msgstr "구글"
+
+#: ../data/ui/PreferencesDialog.ui.h:9
+msgid "Imperial (°F)"
+msgstr "영국식 단위 (°F)"
+
+#: ../data/ui/PreferencesDialog.ui.h:10
+msgid "Km per hour (km/h)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:11
+msgid "Knots"
+msgstr "노트"
+
+#: ../data/ui/PreferencesDialog.ui.h:12
+msgid "Locations"
+msgstr "위치"
+
+#: ../data/ui/PreferencesDialog.ui.h:13
+msgid "Meter per second (m/s)"
+msgstr "미터/초 (m/s)"
+
+#: ../data/ui/PreferencesDialog.ui.h:14
+msgid "Miles per hour (mph)"
+msgstr "마일/시 (mph)"
+
+#: ../data/ui/PreferencesDialog.ui.h:15
+msgid "No notifications"
+msgstr "알림 표시 안 함"
+
+#: ../data/ui/PreferencesDialog.ui.h:16
+msgid "Only use notifications to give severe weather alerts"
+msgstr "심각한 날씨 경고가 있을 때만 알려주기"
+
+#: ../data/ui/PreferencesDialog.ui.h:17
+msgid "SI (metric, °C)"
+msgstr "국제 단위 (°C)"
+
+#: ../data/ui/PreferencesDialog.ui.h:18
+msgid "Show temperature near indicator"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:19
+msgid "Units"
+msgstr "단위"
+
+#: ../data/ui/PreferencesDialog.ui.h:20
+msgid "Update every"
+msgstr "업데이트 간격"
+
+#: ../data/ui/PreferencesDialog.ui.h:21
+msgid "Use notifications to give every weather condition change"
+msgstr "날씨가 바뀌면 항상 알려주기"
+
+#: ../data/ui/PreferencesDialog.ui.h:22
+msgid "Weather Indicator Preferences"
+msgstr "날씨 알리미 기본 설정"
+
+#: ../data/ui/PreferencesDialog.ui.h:23
+msgid "Yahoo!"
+msgstr "야후!"
+
+#: ../data/ui/PreferencesDialog.ui.h:24
+msgid "minutes"
+msgstr "분"
+
+#: ../bin/indicator-weather.py:463
+msgid "Unknown error occurred while picking up weather data"
+msgstr ""
+
+#: ../bin/indicator-weather.py:551
+msgid "Tornado"
+msgstr "토네이도"
+
+#: ../bin/indicator-weather.py:552
+msgid "Tropical storm"
+msgstr "열대 폭풍우"
+
+#: ../bin/indicator-weather.py:553
+msgid "Hurricane"
+msgstr "허리케인"
+
+#: ../bin/indicator-weather.py:554
+msgid "Severe thunderstorms"
+msgstr "맹렬한 뇌우"
+
+#: ../bin/indicator-weather.py:555
+msgid "Thunderstorms"
+msgstr "뇌우"
+
+#: ../bin/indicator-weather.py:556
+msgid "Mixed rain and snow"
+msgstr "비가 섞인 눈"
+
+#. Use American meaning of sleet - see http://en.wikipedia.org/wiki/Sleet
+#: ../bin/indicator-weather.py:558
+msgid "Mixed rain and sleet"
+msgstr "진눈깨비가 섞인 비"
+
+#: ../bin/indicator-weather.py:559
+msgid "Mixed snow and sleet"
+msgstr "진눈깨비가 섞인 눈"
+
+#: ../bin/indicator-weather.py:560
+msgid "Freezing drizzle"
+msgstr "얼어붙는 이슬비"
+
+#: ../bin/indicator-weather.py:561
+msgid "Drizzle"
+msgstr "이슬비"
+
+#: ../bin/indicator-weather.py:562
+msgid "Freezing rain"
+msgstr "얼어붙는 비"
+
+#: ../bin/indicator-weather.py:563 ../bin/indicator-weather.py:564
+msgid "Showers"
+msgstr "소나기"
+
+#: ../bin/indicator-weather.py:565
+msgid "Snow flurries"
+msgstr "눈발 흩날림"
+
+#: ../bin/indicator-weather.py:566
+msgid "Light snow showers"
+msgstr "소낙눈 조금"
+
+#: ../bin/indicator-weather.py:567
+msgid "Blowing snow"
+msgstr "날린 눈"
+
+#: ../bin/indicator-weather.py:568
+msgid "Snow"
+msgstr "눈"
+
+#: ../bin/indicator-weather.py:569
+msgid "Hail"
+msgstr "우박"
+
+#: ../bin/indicator-weather.py:570
+msgid "Sleet"
+msgstr "진눈깨비"
+
+#: ../bin/indicator-weather.py:571
+msgid "Dust"
+msgstr "먼지"
+
+#: ../bin/indicator-weather.py:572
+msgid "Foggy"
+msgstr "안개"
+
+#: ../bin/indicator-weather.py:573
+msgid "Haze"
+msgstr "아지랑이"
+
+#: ../bin/indicator-weather.py:574
+msgid "Smoky"
+msgstr "연기"
+
+#: ../bin/indicator-weather.py:575
+msgid "Blustery"
+msgstr "거센 바람"
+
+#: ../bin/indicator-weather.py:576
+msgid "Windy"
+msgstr "바람"
+
+#: ../bin/indicator-weather.py:577
+msgid "Cold"
+msgstr "추움"
+
+#: ../bin/indicator-weather.py:578
+msgid "Cloudy"
+msgstr "구름"
+
+#: ../bin/indicator-weather.py:579 ../bin/indicator-weather.py:580
+msgid "Mostly cloudy"
+msgstr "구름 많음"
+
+#: ../bin/indicator-weather.py:581 ../bin/indicator-weather.py:582
+#: ../bin/indicator-weather.py:596
+msgid "Partly cloudy"
+msgstr "구름 조금"
+
+#: ../bin/indicator-weather.py:583
+msgid "Clear"
+msgstr "맑음"
+
+#: ../bin/indicator-weather.py:584
+msgid "Sunny"
+msgstr "화창함"
+
+#: ../bin/indicator-weather.py:585 ../bin/indicator-weather.py:586
+msgid "Fair"
+msgstr "맑음"
+
+#: ../bin/indicator-weather.py:587
+msgid "Mixed rain and hail"
+msgstr "우박이 섞인 비"
+
+#: ../bin/indicator-weather.py:588
+msgid "Hot"
+msgstr "더움"
+
+#: ../bin/indicator-weather.py:589
+msgid "Isolated thunderstorms"
+msgstr "고립형 뇌우"
+
+#: ../bin/indicator-weather.py:590 ../bin/indicator-weather.py:591
+msgid "Scattered thunderstorms"
+msgstr "산발적인 뇌우"
+
+#: ../bin/indicator-weather.py:592
+msgid "Scattered showers"
+msgstr "산발적인 소나기"
+
+#: ../bin/indicator-weather.py:593 ../bin/indicator-weather.py:595
+msgid "Heavy snow"
+msgstr "대설"
+
+#: ../bin/indicator-weather.py:594
+msgid "Scattered snow showers"
+msgstr "산발적인 소낙눈"
+
+#: ../bin/indicator-weather.py:597
+msgid "Thundershowers"
+msgstr "뇌우"
+
+#: ../bin/indicator-weather.py:598
+msgid "Snow showers"
+msgstr "소낙눈"
+
+#: ../bin/indicator-weather.py:599
+msgid "Isolated thundershowers"
+msgstr "고립형 뇌우"
+
+#: ../bin/indicator-weather.py:600 ../bin/indicator-weather.py:622
+#: ../bin/indicator-weather.py:627 ../bin/indicator-weather.py:645
+#: ../bin/indicator-weather.py:654 ../bin/indicator-weather.py:664
+#: ../bin/indicator-weather.py:748 ../bin/indicator-weather.py:1730
+msgid "Unknown condition"
+msgstr "알 수 없는 상태"
+
+#: ../bin/indicator-weather.py:755 ../bin/indicator-weather.py:761
+msgid "Humidity"
+msgstr "습도"
+
+#: ../bin/indicator-weather.py:782
+msgid "Pressure"
+msgstr "기압"
+
+#: ../bin/indicator-weather.py:812
+msgid "Temperature"
+msgstr "온도"
+
+#: ../bin/indicator-weather.py:836 ../bin/indicator-weather.py:837
+#: ../bin/indicator-weather.py:838
+msgid "Unknown"
+msgstr ""
+
+#: ../bin/indicator-weather.py:845
+msgid "Wind"
+msgstr "바람"
+
+#: ../bin/indicator-weather.py:872
+msgid "Sunrise"
+msgstr "해 뜨는 시간"
+
+#: ../bin/indicator-weather.py:876
+msgid "Sunset"
+msgstr "해 지는 시간"
+
+#. Short wind direction - north
+#: ../bin/indicator-weather.py:889
+msgid "N"
+msgstr "북풍"
+
+#: ../bin/indicator-weather.py:891
+msgid "NE"
+msgstr "북동풍"
+
+#: ../bin/indicator-weather.py:893
+msgid "E"
+msgstr "동풍"
+
+#: ../bin/indicator-weather.py:895
+msgid "SE"
+msgstr "남동풍"
+
+#: ../bin/indicator-weather.py:897
+msgid "S"
+msgstr "남풍"
+
+#: ../bin/indicator-weather.py:899
+msgid "SW"
+msgstr "남서풍"
+
+#: ../bin/indicator-weather.py:901
+msgid "W"
+msgstr "서풍"
+
+#: ../bin/indicator-weather.py:903
+msgid "NW"
+msgstr "북서풍"
+
+#: ../bin/indicator-weather.py:1074
+msgid "Set Up Weather..."
+msgstr "날씨 설정..."
+
+#: ../bin/indicator-weather.py:1176
+msgid "Forecast"
+msgstr "예보"
+
+#. #Preferences
+#: ../bin/indicator-weather.py:1182
+msgid "Preferences..."
+msgstr "기본 설정..."
+
+#. #About
+#: ../bin/indicator-weather.py:1188
+msgid "About..."
+msgstr "정보..."
+
+#: ../bin/indicator-weather.py:1289
+msgid "Refreshing, please wait"
+msgstr "다시 읽는 중. 기다려 주십시오"
+
+#: ../bin/indicator-weather.py:1291 ../bin/indicator-weather.py:1293
+#: ../bin/indicator-weather.py:1295
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: ../bin/indicator-weather.py:1293
+msgid "just now"
+msgstr "지금 막"
+
+#: ../bin/indicator-weather.py:1295
+#, python-format
+msgid "%d min. ago"
+msgstr "%d분 전"
+
+#: ../bin/indicator-weather.py:1436
+msgid "Severe weather alert"
+msgstr "심각한 날씨 경고"
+
+#: ../bin/indicator-weather.py:1454 ../indicator-weather.desktop.in.h:2
+msgid "Weather Indicator"
+msgstr "날씨 알리미"
+
+#: ../bin/indicator-weather.py:1466
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Ernesto2k https://launchpad.net/~boramism"
+
+#: ../bin/indicator-weather.py:1684
+msgid "Weather Forecast for "
+msgstr "날씨 예보 - "
+
+#: ../bin/indicator-weather.py:1739
+msgid "High"
+msgstr "최고 기온"
+
+#: ../bin/indicator-weather.py:1741
+msgid "Low"
+msgstr "최저 기온"
+
+#: ../bin/indicator-weather.py:1842 ../data/ui/Assistant.ui.h:4
+msgid "Label:"
+msgstr "위치 이름 :"
+
+#: ../bin/indicator-weather.py:1932
+msgid "Another instance of this program is already running"
+msgstr "이 프로그램의 또 다른 인스턴스가 실행 중입니다"
+
+#: ../data/ui/Assistant.ui.h:1
+msgid "<b>Home</b>"
+msgstr "<b>집</b>"
+
+#: ../data/ui/Assistant.ui.h:2
+msgid "<b>Orange, Texas</b>"
+msgstr "<b>텍사스 주, 오렌지 시</b>"
+
+#: ../data/ui/Assistant.ui.h:3
+msgid "Add a location"
+msgstr "위치 추가"
+
+#: ../data/ui/Assistant.ui.h:5
+msgid "Location:"
+msgstr "위치 :"
+
+#: ../data/ui/Assistant.ui.h:6
+msgid "Name the location"
+msgstr "위치 이름 설정"
+
+#: ../data/ui/Assistant.ui.h:7
+msgid "Please enter a name for this location:"
+msgstr "이 위치의 이름을 입력해 주십시오:"
+
+#: ../data/ui/Assistant.ui.h:8
+msgid ""
+"Please review the choices below. If anything is not correct, please go back "
+"and select the correct options."
+msgstr "아래에 표시된 선택을 다시 확인해주십시오. 올바르지 않은 것이 있다면, 뒤로 돌아가 올바른 옵션을 선택해주십시오."
+
+#: ../data/ui/Assistant.ui.h:9
+msgid "Please search our database for your location:"
+msgstr "데이터 베이스에서 위치를 검색하십시오:"
+
+#: ../data/ui/Assistant.ui.h:10
+msgid "Review choices"
+msgstr "선택 다시 확인"
+
+#: ../data/ui/Assistant.ui.h:11
+msgid "Search"
+msgstr "검색"
+
+#: ../data/ui/Assistant.ui.h:12
+msgid "Select a location"
+msgstr "위치 선택"
+
+#: ../data/ui/ExtendedForecast.ui.h:1
+msgid "Extended Forecast"
+msgstr "자세한 날씨 예보"
+
+#: ../indicator-weather.desktop.in.h:1
+msgid ""
+"A weather indicator that displays information for one or multiple places in "
+"the world"
+msgstr "세계의 하나 또는 여러 장소의 날씨 정보를 표시하는 날씨 알리미"
+
+#~ msgid "<big>Update every (min.)</big>"
+#~ msgstr "<big>업데이트 주기 (분)</big>"
+
+#~ msgid "Imperial"
+#~ msgstr "영국 식 단위"
+
+#~ msgid "MPH"
+#~ msgstr "마일/시"
+
+#~ msgid "<big>Locations</big>"
+#~ msgstr "<big>위치</big>"
+
+#~ msgid "<big>Notifications</big>"
+#~ msgstr "<big>알림</big>"
+
+#~ msgid "<big>Metric Scale</big>"
+#~ msgstr "<big>미터법 단위</big>"
+
+#~ msgid "<big>Wind Speed Unit</big>"
+#~ msgstr "<big>풍속 단위</big>"
+
+#~ msgid "MPS"
+#~ msgstr "마일/초"
+
+#~ msgid "SI"
+#~ msgstr "국제 단위"
+
+#~ msgid "Show tips in menu"
+#~ msgstr "메뉴에 팁 표시"
+
+#~ msgid "Mostly sunny"
+#~ msgstr "대체로 맑음"
+
+#~ msgid "Partly sunny"
+#~ msgstr "부분적으로 맑음"
+
+#~ msgid "Becoming sunny"
+#~ msgstr "점차 맑아짐"
+
+#~ msgid "Clear sky"
+#~ msgstr "맑은 하늘"
+
+#~ msgid "Decreasing clouds"
+#~ msgstr "구름 감소"
+
+#~ msgid "Increasing clouds"
+#~ msgstr "구름 증가"
+
+#~ msgid "Few clouds"
+#~ msgstr "약간의 구름이 낀 하늘"
+
+#~ msgid "Broken clouds"
+#~ msgstr "구름이 거의 없는 하늘"
+
+#~ msgid "Scattered clouds"
+#~ msgstr "드문드문 구름이 낀 하늘"
+
+#~ msgid "Overcast"
+#~ msgstr "구름으로 뒤덮인 흐린 하늘"
+
+#~ msgid "Patchy fog"
+#~ msgstr "군데군데 안개"
+
+#~ msgid "Fog"
+#~ msgstr "안개"
+
+#~ msgid "Areas fog"
+#~ msgstr "부분적으로 안개"
+
+#~ msgid "Dense fog"
+#~ msgstr "짙은 안개"
+
+#~ msgid "Blowing dust"
+#~ msgstr "먼지 날림"
+
+#~ msgid "Becoming cloudy"
+#~ msgstr "점차 흐려짐"
+
+#~ msgid "Clearing"
+#~ msgstr "날씨 갬"
+
+#~ msgid "Gradual clearing"
+#~ msgstr "점차 갬"
+
+#~ msgid "Patchy ice fog"
+#~ msgstr "군데군데 얼음 안개"
+
+#~ msgid "Blowing sand"
+#~ msgstr "모래 날림"
+
+#~ msgid "Areas haze"
+#~ msgstr "부분적으로 아지랑이"
+
+#~ msgid "Patchy haze"
+#~ msgstr "군데군데 아지랑이"
+
+#~ msgid "Patchy freezing fog"
+#~ msgstr "군데 군데 얼어붙는 안개"
+
+#~ msgid "Areas freezing fog"
+#~ msgstr "부분적으로 얼어붙는 안개"
+
+#~ msgid "Areas ice fog"
+#~ msgstr "부분적으로 얼음 안개"
+
+#~ msgid "Ice fog"
+#~ msgstr "얼음 안개"
+
+#~ msgid "Freezing fog"
+#~ msgstr "얼어붙는 안개"
+
+#~ msgid "Light snow"
+#~ msgstr "가랑눈"
+
+#~ msgid "Volcanic ash"
+#~ msgstr "화산재"
+
+#~ msgid "Ash"
+#~ msgstr "재"
+
+#~ msgid "Areas ash"
+#~ msgstr "부분적으로 재"
+
+#~ msgid "Smoke"
+#~ msgstr "연기"
+
+#~ msgid "Patchy ash"
+#~ msgstr "군데군데 재"
+
+#~ msgid "Patchy smoke"
+#~ msgstr "군데군데 연기"
+
+#~ msgid "Areas smoke"
+#~ msgstr "부분적으로 연기"
+
+#~ msgid "Freezing spray"
+#~ msgstr "얼어붙는 이슬비"
+
+#~ msgid "Areas frost"
+#~ msgstr "부분적으로 서리"
+
+#~ msgid "Frost"
+#~ msgstr "서리"
+
+#~ msgid "Chance snow showers"
+#~ msgstr "소낙눈이 내릴 수 있음"
+
+#~ msgid "Snow showers likely"
+#~ msgstr "소낙눈이 내릴 확률 높음"
+
+#~ msgid "Patchy frost"
+#~ msgstr "군데군데 서리"
+
+#~ msgid "Ice crystals"
+#~ msgstr "빙정"
+
+#~ msgid "Areas ice crystals"
+#~ msgstr "부분적으로 빙정"
+
+#~ msgid "Patchy ice crystals"
+#~ msgstr "군데군데 빙정"
+
+#~ msgid "Blizzard"
+#~ msgstr "눈보라"
+
+#~ msgid "Snow/rain likely"
+#~ msgstr "눈/비가 내릴 확률 높음"
+
+#~ msgid "Snow/rain"
+#~ msgstr "눈/비"
+
+#~ msgid "Chance snow/rain"
+#~ msgstr "눈/비가 내릴 수 있음"
+
+#~ msgid "Wintry mix"
+#~ msgstr "비와 섞인 눈"
+
+#~ msgid "Chance wintry mix"
+#~ msgstr "비와 섞인 눈이 내릴 수 있음"
+
+#~ msgid "Wintry mix likely"
+#~ msgstr "비와 섞인 눈이 내릴 확률 높음"
+
+#~ msgid "Chance rain showers"
+#~ msgstr "소나기가 내릴 수 있음"
+
+#~ msgid "Sleet likely"
+#~ msgstr "진눈깨비 내릴 확률 높음"
+
+#~ msgid "Chance snow/sleet"
+#~ msgstr "눈/진눈깨비가 내릴 수 있음"
+
+#~ msgid "Snow/sleet"
+#~ msgstr "눈/진눈깨비"
+
+#~ msgid "Snow/sleet likely"
+#~ msgstr "눈/진눈깨비가 내릴 확률 높음"
+
+#~ msgid "Chance sleet"
+#~ msgstr "진눈깨비 올 수 있음"
+
+#~ msgid "Rain showers likely"
+#~ msgstr "소나기가 내릴 확률 높음"
+
+#~ msgid "Slight chance rain"
+#~ msgstr "낮은 확률로 비가 내릴 수 있음"
+
+#~ msgid "Chance rain"
+#~ msgstr "비가 내릴 수 있음"
+
+#~ msgid "Rain showers"
+#~ msgstr "소나기"
+
+#~ msgid "Rain likely"
+#~ msgstr "비가 내릴 확률 높음"
+
+#~ msgid "Drizzle likely"
+#~ msgstr "이슬비가 내릴 확률 높음"
+
+#~ msgid "Chance drizzle"
+#~ msgstr "이슬비가 내릴 수 있음"
+
+#~ msgid "Slight chance drizzle"
+#~ msgstr "낮은 확률로 이슬비가 내릴 수 있음"
+
+#~ msgid "Heavy rain"
+#~ msgstr "폭우"
+
+#~ msgid "Rain"
+#~ msgstr "비"
+
+#~ msgid "Chance rain/freezing rain"
+#~ msgstr "비/얼어붙는 비가 내릴 수 있음"
+
+#~ msgid "Chance freezing drizzle"
+#~ msgstr "얼어붙는 이슬비가 내릴 수 있음"
+
+#~ msgid "Freezing rain likely"
+#~ msgstr "얼어붙는 비가 내릴 확률 높음"
+
+#~ msgid "Chance freezing rain"
+#~ msgstr "얼어붙는 비가 올 수 있음"
+
+#~ msgid "Slight chance freezing rain"
+#~ msgstr "낮은 확률로 얼어붙는 비가 내릴 수 있음"
+
+#~ msgid "Freezing drizzle likely"
+#~ msgstr "얼어붙는 이슬비가 내릴 확률 높음"
+
+#~ msgid "Slight chance thunderstorms"
+#~ msgstr "낮은 확률로 뇌우가 칠 수 있음"
+
+#~ msgid "Rain/freezing rain likely"
+#~ msgstr "비/얼어붙는 비가 내릴 확률 높음"
+
+#~ msgid "Rain/freezing rain"
+#~ msgstr "비/얼어붙는 비"
+
+#~ msgid "Storm"
+#~ msgstr "폭풍"
+
+#~ msgid "Chance thunderstorms"
+#~ msgstr "뇌우가 칠 수 있음"
+
+#~ msgid "Thunderstorms likely"
+#~ msgstr "뇌우가 칠 확률 높음"
+
+#~ msgid "Water spout"
+#~ msgstr "용 오름"
+
+#~ msgid "Dew Point"
+#~ msgstr "이슬점"
+
+#~ msgid "Sky"
+#~ msgstr "하늘"
+
+#~ msgid "Condition"
+#~ msgstr "기상 상태"
+
+#~ msgid "Humidex"
+#~ msgstr "습도 지수"
+
+#~ msgid "mile(s)"
+#~ msgstr "마일"
+
+#~ msgid "km"
+#~ msgstr "킬로미터"
+
+#~ msgid "Visibility"
+#~ msgstr "시계"
+
+#~ msgid "Wind Chill"
+#~ msgstr "체감 온도"
+
+#~ msgid "Wind Speed"
+#~ msgstr "풍속"
+
+#~ msgid "Wind Direction"
+#~ msgstr "풍향"
+
+#~ msgid "mph"
+#~ msgstr "마일/시"
+
+#~ msgid "mps"
+#~ msgstr "마일/초"
+
+#~ msgid "Connection problem"
+#~ msgstr "연결 오류"
+
+#~ msgid "High: "
+#~ msgstr "최고 기온 : "
+
+#~ msgid "Low: "
+#~ msgstr "최저 기온 : "
+
+#~ msgid "<big>Rungis, France</big>"
+#~ msgstr "<big>프랑스, 헝지스</big>"
+
+#~ msgid "Review your settings"
+#~ msgstr "설정을 확인합니다"
+
+#~ msgid "Label This Location"
+#~ msgstr "이 위치의 이름 설정"
+
+#~ msgid "Is this the place you were looking for?"
+#~ msgstr "이 곳이 찾으시는 장소입니까?"
+
+#~ msgid ""
+#~ "If yes, then you can go on. Otherwise, you'll have to go back and set a new "
+#~ "city."
+#~ msgstr "예를 선택하면 계속 진행합니다. 그렇지 않으면 뒤로 돌아가 다시 도시를 선택하게 됩니다."
+
+#~ msgid "Please select a location from the location tree"
+#~ msgstr "아래 목록에서 위치를 선택해주십시오."
+
+#~ msgid "Confirm the place"
+#~ msgstr "장소 확인"
+
+#~ msgid "Assistant to set up the weather indicator"
+#~ msgstr "날씨 알리미 설정 도우미"
+
+#~ msgid "Add a place"
+#~ msgstr "위치 추가"
+
+#~ msgid ""
+#~ "Would you like to label this location ?\n"
+#~ "If yes, type it below. \n"
+#~ "If no, leave blank and go on."
+#~ msgstr ""
+#~ "이 위치의 이름을 설정하시겠습니까?\n"
+#~ "그런 경우 아래에 입력하십시오.\n"
+#~ "그렇지 않은 경우 다음으로 이동하십시오."
+
+#~ msgid "Review your settings. You may go back and make changes if needed."
+#~ msgstr "설정을 확인합니다. 필요한 경우 뒤로 돌아가 설정을 바꿀 수 있습니다."
+
+#~ msgid ""
+#~ "A weather indicator that displays information for one or multiple places"
+#~ msgstr "한 지역 또는 세계 여러 지역의 정보를 표시하는 날씨 알리미"
+
+#~ msgid "Slight chance snow showers"
+#~ msgstr "낮은 확률로 소낙눈이 내릴 수 있음"
+
+#~ msgid "Slight chance snow/rain"
+#~ msgstr "낮은 확률로 눈/비가 내릴 수 있음"
+
+#~ msgid "Slight chance rain showers"
+#~ msgstr "낮은 확률로 소나기가 내릴 수 있음"
+
+#~ msgid "Slight chance snow/sleet"
+#~ msgstr "낮은 확률로 눈/진눈깨비가 내릴 수 있음"
+
+#~ msgid "Slight chance wintry mix"
+#~ msgstr "낮은 확률로 비와 섞인 눈이 내릴 수 있음"
+
+#~ msgid "Slight chance sleet"
+#~ msgstr "낮은 확률로 진눈깨비가 내릴 수 있음"
+
+#~ msgid "Slight chance freezing drizzle"
+#~ msgstr "낮은 확률로 얼어붙는 이슬비가 내릴 수 있음"
+
+#~ msgid "Slight chance rain/freezing rain"
+#~ msgstr "낮은 확률로 비/얼어붙는 비가 내릴 수 있음"
+
+#~ msgid "Clearing late"
+#~ msgstr "오후 늦게 갬"
+
+#~ msgid "SI (°C)"
+#~ msgstr "국제 단위 (°F)"
+
+#~ msgid "Please select a location from below:"
+#~ msgstr "아래에서 위치를 선택해주십시오."
+
+#~ msgid "If this is not correct, please go back and select a new city."
+#~ msgstr "이 것이 올바르지 않은 경우에는 뒤로 돌아가 새 도시를 선택하십시오."
+
+#~ msgid "Confirm choice"
+#~ msgstr "선택 확인"
+
+#~ msgid "km/h"
+#~ msgstr "킬로미터/시"
+
+#~ msgid "m/s"
+#~ msgstr "미터/초"
+
+#~ msgid "Error retreiving condition"
+#~ msgstr "기상 상태를 가져올 수 없습니다"
+
+#~ msgid "You have selected:"
+#~ msgstr "선택한 옵션 :"
+
+#~ msgid "Kilometers per hour (kph)"
+#~ msgstr "킬로미터/시 (kph)"
+
+#~ msgid "knot(s)"
+#~ msgstr "노트"
+
+#~ msgid "refreshed just now"
+#~ msgstr "지금 막 다시 읽었습니다"
+
+#, python-format
+#~ msgid "last refreshed %s min. ago"
+#~ msgstr "%s 분 전에 다시 읽었습니다"
+
+#~ msgid "last refreshed just now"
+#~ msgstr "방금 다시 읽었습니다"
+
+#~ msgid "Please input a location in the combobox below:"
+#~ msgstr "아래의 콤보 상자에 위치를 입력해주십시오 :"

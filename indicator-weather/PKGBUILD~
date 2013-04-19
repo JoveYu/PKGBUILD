@@ -1,0 +1,26 @@
+# Maintainer: Xiao-Long Chen <chenxiaolongcxl.epac.to>
+
+pkgname=indicator-weather
+pkgver=12.07.30
+pkgrel=1
+pkgdesc="indicator-weather"
+arch=('i686' 'x86_64')
+url="https://launchpad.net/weather-indicator"
+license=('GPL')
+groups=('unity-extra')
+depends=( 'libappindicator' 'python2' 'python2-dbus' 'python2-gobject' 'pygtk' 'python2-pywapi' 'python2-gconf')
+makedepends=('python2-distutils-extra')
+install=indicator-weather.install
+source=("https://launchpad.net/ubuntu/quantal/+source/indicator-weather/12.07.30-0ubuntu1.1/+files/${pkgname}_${pkgver}.orig.tar.gz"
+        'lp821233.diff')
+md5sums=('cd4d5b5f8f9de783261d641516237dd1'
+         'b4dea778b90dd8cfb27ec097a06b93b1')
+
+package() {
+  cd ${pkgname}_${pkgver}
+  python2 setup.py install --root="$pkgdir/" --optimize=1
+  cp data/indicator-weather.gschema.xml {pkgdir}/usr/share/indicator-weather/indicator-weather.gschema.xml
+  cd ${pkgdir}/usr/bin/
+  patch < "${srcdir}/lp821233.diff"
+}
+

@@ -1,0 +1,525 @@
+# Swedish translation for weather-indicator
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the weather-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: weather-indicator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 02:48-0700\n"
+"PO-Revision-Date: 2011-07-22 05:51+0000\n"
+"Last-Translator: Isak Frants <Unknown>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-07-23 05:35+0000\n"
+"X-Generator: Launchpad (build 13405)\n"
+"Language: sv\n"
+
+#: ../data/ui/PreferencesDialog.ui.h:1
+msgid "<b>Notifications</b>"
+msgstr "<b>Notifieringar</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:2
+msgid "<b>Temperature Scale</b>"
+msgstr "<b>Temperaturskala</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:3
+msgid "<b>Weather Data Source</b>"
+msgstr "<b>Källa för väder</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:4
+msgid "<b>Wind Speed Unit</b>"
+msgstr "<b>Vindenhet</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:5
+msgid "Beaufort"
+msgstr "Beaufort"
+
+#: ../data/ui/PreferencesDialog.ui.h:6
+msgid "Enable the Weather Indicator Applet"
+msgstr "Aktivera indikatorpanelprogrammet för väder"
+
+#: ../data/ui/PreferencesDialog.ui.h:7
+msgid "General"
+msgstr "Allmänt"
+
+#: ../data/ui/PreferencesDialog.ui.h:8
+msgid "Google"
+msgstr "Google"
+
+#: ../data/ui/PreferencesDialog.ui.h:9
+msgid "Imperial (°F)"
+msgstr "Brittisk (°F)"
+
+#: ../data/ui/PreferencesDialog.ui.h:10
+msgid "Km per hour (km/h)"
+msgstr "Km per timme (km/h)"
+
+#: ../data/ui/PreferencesDialog.ui.h:11
+msgid "Knots"
+msgstr "Knop"
+
+#: ../data/ui/PreferencesDialog.ui.h:12
+msgid "Locations"
+msgstr "Platser"
+
+#: ../data/ui/PreferencesDialog.ui.h:13
+msgid "Meter per second (m/s)"
+msgstr "Meter per sekund (m/s)"
+
+#: ../data/ui/PreferencesDialog.ui.h:14
+msgid "Miles per hour (mph)"
+msgstr "Mil per timme (mph)"
+
+#: ../data/ui/PreferencesDialog.ui.h:15
+msgid "No notifications"
+msgstr "Inga notifieringar"
+
+#: ../data/ui/PreferencesDialog.ui.h:16
+msgid "Only use notifications to give severe weather alerts"
+msgstr "Använd endast notifieringar för att visa allvarliga vädervarningar"
+
+#: ../data/ui/PreferencesDialog.ui.h:17
+msgid "SI (metric, °C)"
+msgstr "SI (metrisk, °C)"
+
+#: ../data/ui/PreferencesDialog.ui.h:18
+msgid "Show temperature near indicator"
+msgstr "Visa temperaturen bredvid indikatorn"
+
+#: ../data/ui/PreferencesDialog.ui.h:19
+msgid "Units"
+msgstr "Enheter"
+
+#: ../data/ui/PreferencesDialog.ui.h:20
+msgid "Update every"
+msgstr "Uppdatera var"
+
+#: ../data/ui/PreferencesDialog.ui.h:21
+msgid "Use notifications to give every weather condition change"
+msgstr "Använd notifieringar för att visa varenda väderförändring"
+
+#: ../data/ui/PreferencesDialog.ui.h:22
+msgid "Weather Indicator Preferences"
+msgstr "Inställningar för väderindikator"
+
+#: ../data/ui/PreferencesDialog.ui.h:23
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: ../data/ui/PreferencesDialog.ui.h:24
+msgid "minutes"
+msgstr "minut"
+
+#: ../bin/indicator-weather.py:463
+msgid "Unknown error occurred while picking up weather data"
+msgstr "Okänt fel påträffades vid hämtning av väderdata"
+
+#: ../bin/indicator-weather.py:551
+msgid "Tornado"
+msgstr "Tornado"
+
+#: ../bin/indicator-weather.py:552
+msgid "Tropical storm"
+msgstr "Tropisk storm"
+
+#: ../bin/indicator-weather.py:553
+msgid "Hurricane"
+msgstr "Orkan"
+
+#: ../bin/indicator-weather.py:554
+msgid "Severe thunderstorms"
+msgstr "Kraftigt åskväder"
+
+#: ../bin/indicator-weather.py:555
+msgid "Thunderstorms"
+msgstr "Åskväder"
+
+#: ../bin/indicator-weather.py:556
+msgid "Mixed rain and snow"
+msgstr "Snöblandat regn"
+
+#. Use American meaning of sleet - see http://en.wikipedia.org/wiki/Sleet
+#: ../bin/indicator-weather.py:558
+msgid "Mixed rain and sleet"
+msgstr "Blandat regn och snöblandat regn"
+
+#: ../bin/indicator-weather.py:559
+msgid "Mixed snow and sleet"
+msgstr "Blandat snö och snöblandat regn"
+
+#: ../bin/indicator-weather.py:560
+msgid "Freezing drizzle"
+msgstr "Underkylt duggregn"
+
+#: ../bin/indicator-weather.py:561
+msgid "Drizzle"
+msgstr "Duggregn"
+
+#: ../bin/indicator-weather.py:562
+msgid "Freezing rain"
+msgstr "Underkylt regn"
+
+#: ../bin/indicator-weather.py:563 ../bin/indicator-weather.py:564
+msgid "Showers"
+msgstr "Regnskurar"
+
+#: ../bin/indicator-weather.py:565
+msgid "Snow flurries"
+msgstr "Lätt snöfall"
+
+#: ../bin/indicator-weather.py:566
+msgid "Light snow showers"
+msgstr "Lätta snöbyar"
+
+#: ../bin/indicator-weather.py:567
+msgid "Blowing snow"
+msgstr "Snöstorm"
+
+#: ../bin/indicator-weather.py:568
+msgid "Snow"
+msgstr "Snö"
+
+#: ../bin/indicator-weather.py:569
+msgid "Hail"
+msgstr "Hagel"
+
+#: ../bin/indicator-weather.py:570
+msgid "Sleet"
+msgstr "Snöblandat regn"
+
+#: ../bin/indicator-weather.py:571
+msgid "Dust"
+msgstr "Dammigt"
+
+#: ../bin/indicator-weather.py:572
+msgid "Foggy"
+msgstr "Dimmigt"
+
+#: ../bin/indicator-weather.py:573
+msgid "Haze"
+msgstr "Dis"
+
+#: ../bin/indicator-weather.py:574
+msgid "Smoky"
+msgstr "Rökigt"
+
+#: ../bin/indicator-weather.py:575
+msgid "Blustery"
+msgstr "Blåsigt"
+
+#: ../bin/indicator-weather.py:576
+msgid "Windy"
+msgstr "Frisk vind"
+
+#: ../bin/indicator-weather.py:577
+msgid "Cold"
+msgstr "Kallt"
+
+#: ../bin/indicator-weather.py:578
+msgid "Cloudy"
+msgstr "Mulet"
+
+#: ../bin/indicator-weather.py:579 ../bin/indicator-weather.py:580
+msgid "Mostly cloudy"
+msgstr "Mestadels molnigt"
+
+#: ../bin/indicator-weather.py:581 ../bin/indicator-weather.py:582
+#: ../bin/indicator-weather.py:596
+msgid "Partly cloudy"
+msgstr "Delvis molnigt"
+
+#: ../bin/indicator-weather.py:583
+msgid "Clear"
+msgstr "Klart"
+
+#: ../bin/indicator-weather.py:584
+msgid "Sunny"
+msgstr "Soligt"
+
+#: ../bin/indicator-weather.py:585 ../bin/indicator-weather.py:586
+msgid "Fair"
+msgstr "Måttligt"
+
+#: ../bin/indicator-weather.py:587
+msgid "Mixed rain and hail"
+msgstr "Blandat regn och hagel"
+
+#: ../bin/indicator-weather.py:588
+msgid "Hot"
+msgstr "Varmt"
+
+#: ../bin/indicator-weather.py:589
+msgid "Isolated thunderstorms"
+msgstr "Lokala åskskurar"
+
+#: ../bin/indicator-weather.py:590 ../bin/indicator-weather.py:591
+msgid "Scattered thunderstorms"
+msgstr "Spridda åskskurar"
+
+#: ../bin/indicator-weather.py:592
+msgid "Scattered showers"
+msgstr "Spridda regnskurar"
+
+#: ../bin/indicator-weather.py:593 ../bin/indicator-weather.py:595
+msgid "Heavy snow"
+msgstr "Kraftigt snöfall"
+
+#: ../bin/indicator-weather.py:594
+msgid "Scattered snow showers"
+msgstr "Spridda snöbyar"
+
+#: ../bin/indicator-weather.py:597
+msgid "Thundershowers"
+msgstr "Åskskurar"
+
+#: ../bin/indicator-weather.py:598
+msgid "Snow showers"
+msgstr "Snöbyar"
+
+#: ../bin/indicator-weather.py:599
+msgid "Isolated thundershowers"
+msgstr "Lokala åskskurar"
+
+#: ../bin/indicator-weather.py:600 ../bin/indicator-weather.py:622
+#: ../bin/indicator-weather.py:627 ../bin/indicator-weather.py:645
+#: ../bin/indicator-weather.py:654 ../bin/indicator-weather.py:664
+#: ../bin/indicator-weather.py:748 ../bin/indicator-weather.py:1730
+msgid "Unknown condition"
+msgstr "Okänt tillstånd"
+
+#: ../bin/indicator-weather.py:755 ../bin/indicator-weather.py:761
+msgid "Humidity"
+msgstr "Luftfuktighet"
+
+#: ../bin/indicator-weather.py:782
+msgid "Pressure"
+msgstr "Tryck"
+
+#: ../bin/indicator-weather.py:812
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: ../bin/indicator-weather.py:836 ../bin/indicator-weather.py:837
+#: ../bin/indicator-weather.py:838
+msgid "Unknown"
+msgstr "Okänd"
+
+#: ../bin/indicator-weather.py:845
+msgid "Wind"
+msgstr "Vind"
+
+#: ../bin/indicator-weather.py:872
+msgid "Sunrise"
+msgstr "Soluppgång"
+
+#: ../bin/indicator-weather.py:876
+msgid "Sunset"
+msgstr "Solnedgång"
+
+#. Short wind direction - north
+#: ../bin/indicator-weather.py:889
+msgid "N"
+msgstr "N"
+
+#: ../bin/indicator-weather.py:891
+msgid "NE"
+msgstr "NÖ"
+
+#: ../bin/indicator-weather.py:893
+msgid "E"
+msgstr "Ö"
+
+#: ../bin/indicator-weather.py:895
+msgid "SE"
+msgstr "SÖ"
+
+#: ../bin/indicator-weather.py:897
+msgid "S"
+msgstr "S"
+
+#: ../bin/indicator-weather.py:899
+msgid "SW"
+msgstr "SV"
+
+#: ../bin/indicator-weather.py:901
+msgid "W"
+msgstr "V"
+
+#: ../bin/indicator-weather.py:903
+msgid "NW"
+msgstr "NV"
+
+#: ../bin/indicator-weather.py:1074
+msgid "Set Up Weather..."
+msgstr "Ställ in väder..."
+
+#: ../bin/indicator-weather.py:1176
+msgid "Forecast"
+msgstr "Prognos"
+
+#. #Preferences
+#: ../bin/indicator-weather.py:1182
+msgid "Preferences..."
+msgstr "Inställningar..."
+
+#. #About
+#: ../bin/indicator-weather.py:1188
+msgid "About..."
+msgstr "Om..."
+
+#: ../bin/indicator-weather.py:1289
+msgid "Refreshing, please wait"
+msgstr "Uppdaterar, var god vänta"
+
+#: ../bin/indicator-weather.py:1291 ../bin/indicator-weather.py:1293
+#: ../bin/indicator-weather.py:1295
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: ../bin/indicator-weather.py:1293
+msgid "just now"
+msgstr "just nu"
+
+#: ../bin/indicator-weather.py:1295
+#, python-format
+msgid "%d min. ago"
+msgstr "%d min. sedan"
+
+#: ../bin/indicator-weather.py:1436
+msgid "Severe weather alert"
+msgstr "Allvarlig vädervarning"
+
+#: ../bin/indicator-weather.py:1454 ../indicator-weather.desktop.in.h:2
+msgid "Weather Indicator"
+msgstr "Väderindikator"
+
+#: ../bin/indicator-weather.py:1466
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Isak Frants https://launchpad.net/~isakfrants"
+
+#: ../bin/indicator-weather.py:1684
+msgid "Weather Forecast for "
+msgstr "Väderprognos för "
+
+#: ../bin/indicator-weather.py:1739
+msgid "High"
+msgstr "Hög"
+
+#: ../bin/indicator-weather.py:1741
+msgid "Low"
+msgstr "Låg"
+
+#: ../bin/indicator-weather.py:1842 ../data/ui/Assistant.ui.h:4
+msgid "Label:"
+msgstr "Namn:"
+
+#: ../bin/indicator-weather.py:1932
+msgid "Another instance of this program is already running"
+msgstr "En annan instans av detta program körs redan"
+
+#: ../data/ui/Assistant.ui.h:1
+msgid "<b>Home</b>"
+msgstr "<b>Hem</b>"
+
+#: ../data/ui/Assistant.ui.h:2
+msgid "<b>Orange, Texas</b>"
+msgstr "<b>Orange, Texas</b>"
+
+#: ../data/ui/Assistant.ui.h:3
+msgid "Add a location"
+msgstr "Lägg till en plats"
+
+#: ../data/ui/Assistant.ui.h:5
+msgid "Location:"
+msgstr "Plats:"
+
+#: ../data/ui/Assistant.ui.h:6
+msgid "Name the location"
+msgstr "Namnge platsen"
+
+#: ../data/ui/Assistant.ui.h:7
+msgid "Please enter a name for this location:"
+msgstr "Ange ett namn för denna plats:"
+
+#: ../data/ui/Assistant.ui.h:8
+msgid ""
+"Please review the choices below. If anything is not correct, please go back "
+"and select the correct options."
+msgstr ""
+"Granska dina gjorda val. Om något är felaktigt, gå tillbaka och ändra."
+
+#: ../data/ui/Assistant.ui.h:9
+msgid "Please search our database for your location:"
+msgstr "Sök efter din plats i vår databas:"
+
+#: ../data/ui/Assistant.ui.h:10
+msgid "Review choices"
+msgstr "Granska dina val"
+
+#: ../data/ui/Assistant.ui.h:11
+msgid "Search"
+msgstr "Sök"
+
+#: ../data/ui/Assistant.ui.h:12
+msgid "Select a location"
+msgstr "Välj en plats"
+
+#: ../data/ui/ExtendedForecast.ui.h:1
+msgid "Extended Forecast"
+msgstr "Utökad prognos"
+
+#: ../indicator-weather.desktop.in.h:1
+msgid ""
+"A weather indicator that displays information for one or multiple places in "
+"the world"
+msgstr ""
+"En väderindikator som visar information om en eller flera platser i världen"
+
+#~ msgid "Kilometers per hour (kph)"
+#~ msgstr "Kilometer per timme (km/h)"
+
+#~ msgid "SI (°C)"
+#~ msgstr "SI (°C)"
+
+#~ msgid "Show tips in menu"
+#~ msgstr "Visa tips i menyn"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "knot(s)"
+#~ msgstr "knop"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "refreshed just now"
+#~ msgstr "uppdaterade just"
+
+#, python-format
+#~ msgid "last refreshed %s min. ago"
+#~ msgstr "uppdaterad för %s min. sedan"
+
+#~ msgid "last refreshed just now"
+#~ msgstr "uppdaterade just"
+
+#~ msgid "Please input a location in the combobox below:"
+#~ msgstr "Fyll i en plats i rutan här under:"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "Condition"
+#~ msgstr "Villkor"
+
+#~ msgid "Visibility"
+#~ msgstr "Sikt"
+
+#~ msgid "Humidex"
+#~ msgstr "Luftfuktighetsindex"

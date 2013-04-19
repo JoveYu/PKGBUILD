@@ -1,0 +1,491 @@
+# Romanian translation for weather-indicator
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the weather-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: weather-indicator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 02:48-0700\n"
+"PO-Revision-Date: 2011-09-29 20:09+0000\n"
+"Last-Translator: Robert Dumitrescu <Unknown>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-09-30 04:52+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+"Language: ro\n"
+
+#: ../data/ui/PreferencesDialog.ui.h:1
+msgid "<b>Notifications</b>"
+msgstr "<b>Notificări</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:2
+msgid "<b>Temperature Scale</b>"
+msgstr "Unitate temperatură"
+
+#: ../data/ui/PreferencesDialog.ui.h:3
+msgid "<b>Weather Data Source</b>"
+msgstr "Sursă informații meteo"
+
+#: ../data/ui/PreferencesDialog.ui.h:4
+msgid "<b>Wind Speed Unit</b>"
+msgstr "Unitate viteză vânt"
+
+#: ../data/ui/PreferencesDialog.ui.h:5
+msgid "Beaufort"
+msgstr "Beaufort"
+
+#: ../data/ui/PreferencesDialog.ui.h:6
+msgid "Enable the Weather Indicator Applet"
+msgstr "Activează Weather Indicator Applet"
+
+#: ../data/ui/PreferencesDialog.ui.h:7
+msgid "General"
+msgstr "General"
+
+#: ../data/ui/PreferencesDialog.ui.h:8
+msgid "Google"
+msgstr "Google"
+
+#: ../data/ui/PreferencesDialog.ui.h:9
+msgid "Imperial (°F)"
+msgstr "Imperial (°F)"
+
+#: ../data/ui/PreferencesDialog.ui.h:10
+msgid "Km per hour (km/h)"
+msgstr "Km pe oră (km/h)"
+
+#: ../data/ui/PreferencesDialog.ui.h:11
+msgid "Knots"
+msgstr "Noduri"
+
+#: ../data/ui/PreferencesDialog.ui.h:12
+msgid "Locations"
+msgstr "Locații"
+
+#: ../data/ui/PreferencesDialog.ui.h:13
+msgid "Meter per second (m/s)"
+msgstr "Metri pe secundă (m/s)"
+
+#: ../data/ui/PreferencesDialog.ui.h:14
+msgid "Miles per hour (mph)"
+msgstr "Mile pe oră (mi/h)"
+
+#: ../data/ui/PreferencesDialog.ui.h:15
+msgid "No notifications"
+msgstr "Fără notificări"
+
+#: ../data/ui/PreferencesDialog.ui.h:16
+msgid "Only use notifications to give severe weather alerts"
+msgstr "Folosește notificările doar pentru alerte de vreme severă"
+
+#: ../data/ui/PreferencesDialog.ui.h:17
+msgid "SI (metric, °C)"
+msgstr "SI (metric, °C)"
+
+#: ../data/ui/PreferencesDialog.ui.h:18
+msgid "Show temperature near indicator"
+msgstr "Arată temperatura lângă indicator"
+
+#: ../data/ui/PreferencesDialog.ui.h:19
+msgid "Units"
+msgstr "Unități"
+
+#: ../data/ui/PreferencesDialog.ui.h:20
+msgid "Update every"
+msgstr "Actualizează la fiecare"
+
+#: ../data/ui/PreferencesDialog.ui.h:21
+msgid "Use notifications to give every weather condition change"
+msgstr "Folosește notificările pentru toate schimbările de vreme"
+
+#: ../data/ui/PreferencesDialog.ui.h:22
+msgid "Weather Indicator Preferences"
+msgstr "Preferințe Weather Indicator"
+
+#: ../data/ui/PreferencesDialog.ui.h:23
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: ../data/ui/PreferencesDialog.ui.h:24
+msgid "minutes"
+msgstr "minute"
+
+#: ../bin/indicator-weather.py:463
+msgid "Unknown error occurred while picking up weather data"
+msgstr ""
+
+#: ../bin/indicator-weather.py:551
+msgid "Tornado"
+msgstr "Tornadă"
+
+#: ../bin/indicator-weather.py:552
+msgid "Tropical storm"
+msgstr "Furtună tropicală"
+
+#: ../bin/indicator-weather.py:553
+msgid "Hurricane"
+msgstr "Uragan"
+
+#: ../bin/indicator-weather.py:554
+msgid "Severe thunderstorms"
+msgstr "Furtună puternică"
+
+#: ../bin/indicator-weather.py:555
+msgid "Thunderstorms"
+msgstr "Furtună"
+
+#: ../bin/indicator-weather.py:556
+msgid "Mixed rain and snow"
+msgstr "Ploaie și ninsoare amestecate"
+
+#. Use American meaning of sleet - see http://en.wikipedia.org/wiki/Sleet
+#: ../bin/indicator-weather.py:558
+msgid "Mixed rain and sleet"
+msgstr "Ploaie și lapoviță amestecate"
+
+#: ../bin/indicator-weather.py:559
+msgid "Mixed snow and sleet"
+msgstr "Ninsoare și lapoviță amestecate"
+
+#: ../bin/indicator-weather.py:560
+msgid "Freezing drizzle"
+msgstr "Burniță care îngheață"
+
+#: ../bin/indicator-weather.py:561
+msgid "Drizzle"
+msgstr "Burniță"
+
+#: ../bin/indicator-weather.py:562
+msgid "Freezing rain"
+msgstr "Ploaie cu depunere de polei"
+
+#: ../bin/indicator-weather.py:563 ../bin/indicator-weather.py:564
+msgid "Showers"
+msgstr "Averse"
+
+#: ../bin/indicator-weather.py:565
+msgid "Snow flurries"
+msgstr "Fulgi de zăpadă"
+
+#: ../bin/indicator-weather.py:566
+msgid "Light snow showers"
+msgstr "Ninsori ușoare"
+
+#: ../bin/indicator-weather.py:567
+msgid "Blowing snow"
+msgstr "Zăpadă viscolită"
+
+#: ../bin/indicator-weather.py:568
+msgid "Snow"
+msgstr "Zăpadă"
+
+#: ../bin/indicator-weather.py:569
+msgid "Hail"
+msgstr "Grindină"
+
+#: ../bin/indicator-weather.py:570
+msgid "Sleet"
+msgstr "Lapoviţă"
+
+#: ../bin/indicator-weather.py:571
+msgid "Dust"
+msgstr "Praf"
+
+#: ../bin/indicator-weather.py:572
+msgid "Foggy"
+msgstr "Ceţos"
+
+#: ../bin/indicator-weather.py:573
+msgid "Haze"
+msgstr "Pâclă"
+
+#: ../bin/indicator-weather.py:574
+msgid "Smoky"
+msgstr "Fumuriu"
+
+#: ../bin/indicator-weather.py:575
+msgid "Blustery"
+msgstr "Rafale de vânt"
+
+#: ../bin/indicator-weather.py:576
+msgid "Windy"
+msgstr "Vânt"
+
+#: ../bin/indicator-weather.py:577
+msgid "Cold"
+msgstr "Frig"
+
+#: ../bin/indicator-weather.py:578
+msgid "Cloudy"
+msgstr "Înnourat"
+
+#: ../bin/indicator-weather.py:579 ../bin/indicator-weather.py:580
+msgid "Mostly cloudy"
+msgstr "în mare parte înnourat"
+
+#: ../bin/indicator-weather.py:581 ../bin/indicator-weather.py:582
+#: ../bin/indicator-weather.py:596
+msgid "Partly cloudy"
+msgstr "Parţial înnourat"
+
+#: ../bin/indicator-weather.py:583
+msgid "Clear"
+msgstr "Clar"
+
+#: ../bin/indicator-weather.py:584
+msgid "Sunny"
+msgstr "Însorit"
+
+#: ../bin/indicator-weather.py:585 ../bin/indicator-weather.py:586
+msgid "Fair"
+msgstr "Rezonabil"
+
+#: ../bin/indicator-weather.py:587
+msgid "Mixed rain and hail"
+msgstr "Ploaie și grindină"
+
+#: ../bin/indicator-weather.py:588
+msgid "Hot"
+msgstr "Caniculă"
+
+#: ../bin/indicator-weather.py:589
+msgid "Isolated thunderstorms"
+msgstr "Furtuni izolate"
+
+#: ../bin/indicator-weather.py:590 ../bin/indicator-weather.py:591
+msgid "Scattered thunderstorms"
+msgstr "Furtuni izolate"
+
+#: ../bin/indicator-weather.py:592
+msgid "Scattered showers"
+msgstr "Ploi izolate"
+
+#: ../bin/indicator-weather.py:593 ../bin/indicator-weather.py:595
+msgid "Heavy snow"
+msgstr "Ninsoare puternică"
+
+#: ../bin/indicator-weather.py:594
+msgid "Scattered snow showers"
+msgstr "Ninsori izolate"
+
+#: ../bin/indicator-weather.py:597
+msgid "Thundershowers"
+msgstr "Ploi torențiale"
+
+#: ../bin/indicator-weather.py:598
+msgid "Snow showers"
+msgstr "Averse de ninsoare"
+
+#: ../bin/indicator-weather.py:599
+msgid "Isolated thundershowers"
+msgstr "Ploi torențiale izolate"
+
+#: ../bin/indicator-weather.py:600 ../bin/indicator-weather.py:622
+#: ../bin/indicator-weather.py:627 ../bin/indicator-weather.py:645
+#: ../bin/indicator-weather.py:654 ../bin/indicator-weather.py:664
+#: ../bin/indicator-weather.py:748 ../bin/indicator-weather.py:1730
+msgid "Unknown condition"
+msgstr "Condiții necunoscute"
+
+#: ../bin/indicator-weather.py:755 ../bin/indicator-weather.py:761
+msgid "Humidity"
+msgstr "Umiditate"
+
+#: ../bin/indicator-weather.py:782
+msgid "Pressure"
+msgstr "Presiune"
+
+#: ../bin/indicator-weather.py:812
+msgid "Temperature"
+msgstr "Temperatură"
+
+#: ../bin/indicator-weather.py:836 ../bin/indicator-weather.py:837
+#: ../bin/indicator-weather.py:838
+msgid "Unknown"
+msgstr ""
+
+#: ../bin/indicator-weather.py:845
+msgid "Wind"
+msgstr "Vânt"
+
+#: ../bin/indicator-weather.py:872
+msgid "Sunrise"
+msgstr "Răsărit"
+
+#: ../bin/indicator-weather.py:876
+msgid "Sunset"
+msgstr "Asfinţit"
+
+#. Short wind direction - north
+#: ../bin/indicator-weather.py:889
+msgid "N"
+msgstr "N"
+
+#: ../bin/indicator-weather.py:891
+msgid "NE"
+msgstr "NE"
+
+#: ../bin/indicator-weather.py:893
+msgid "E"
+msgstr "E"
+
+#: ../bin/indicator-weather.py:895
+msgid "SE"
+msgstr "SE"
+
+#: ../bin/indicator-weather.py:897
+msgid "S"
+msgstr "S"
+
+#: ../bin/indicator-weather.py:899
+msgid "SW"
+msgstr "SV"
+
+#: ../bin/indicator-weather.py:901
+msgid "W"
+msgstr "V"
+
+#: ../bin/indicator-weather.py:903
+msgid "NW"
+msgstr "NV"
+
+#: ../bin/indicator-weather.py:1074
+msgid "Set Up Weather..."
+msgstr "Setează vremea"
+
+#: ../bin/indicator-weather.py:1176
+msgid "Forecast"
+msgstr "Prognoză"
+
+#. #Preferences
+#: ../bin/indicator-weather.py:1182
+msgid "Preferences..."
+msgstr "Preferințe..."
+
+#. #About
+#: ../bin/indicator-weather.py:1188
+msgid "About..."
+msgstr "Despre..."
+
+#: ../bin/indicator-weather.py:1289
+msgid "Refreshing, please wait"
+msgstr "Se actualizează, așteptați"
+
+#: ../bin/indicator-weather.py:1291 ../bin/indicator-weather.py:1293
+#: ../bin/indicator-weather.py:1295
+msgid "Refresh"
+msgstr "Actualizează"
+
+#: ../bin/indicator-weather.py:1293
+msgid "just now"
+msgstr "acum"
+
+#: ../bin/indicator-weather.py:1295
+#, python-format
+msgid "%d min. ago"
+msgstr "de %d min."
+
+#: ../bin/indicator-weather.py:1436
+msgid "Severe weather alert"
+msgstr "Alertă vreme severă"
+
+#: ../bin/indicator-weather.py:1454 ../indicator-weather.desktop.in.h:2
+msgid "Weather Indicator"
+msgstr "Indicator vreme"
+
+#: ../bin/indicator-weather.py:1466
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Adi https://launchpad.net/~aditzah-z\n"
+"  Robert Dumitrescu https://launchpad.net/~rc-dumitrescu"
+
+#: ../bin/indicator-weather.py:1684
+msgid "Weather Forecast for "
+msgstr "Prognoza pentru "
+
+#: ../bin/indicator-weather.py:1739
+msgid "High"
+msgstr "Maximă"
+
+#: ../bin/indicator-weather.py:1741
+msgid "Low"
+msgstr "Minimă"
+
+#: ../bin/indicator-weather.py:1842 ../data/ui/Assistant.ui.h:4
+msgid "Label:"
+msgstr "Etichetă:"
+
+#: ../bin/indicator-weather.py:1932
+msgid "Another instance of this program is already running"
+msgstr "Altă instanță a acestui program deja rulează"
+
+#: ../data/ui/Assistant.ui.h:1
+msgid "<b>Home</b>"
+msgstr "<b>Acasă</b>"
+
+#: ../data/ui/Assistant.ui.h:2
+msgid "<b>Orange, Texas</b>"
+msgstr "<b>Orange, Texas</b>"
+
+#: ../data/ui/Assistant.ui.h:3
+msgid "Add a location"
+msgstr "Adaugă o locație"
+
+#: ../data/ui/Assistant.ui.h:5
+msgid "Location:"
+msgstr "Locație:"
+
+#: ../data/ui/Assistant.ui.h:6
+msgid "Name the location"
+msgstr "Numele locației"
+
+#: ../data/ui/Assistant.ui.h:7
+msgid "Please enter a name for this location:"
+msgstr "Introduceți un nume pentru această locație:"
+
+#: ../data/ui/Assistant.ui.h:8
+msgid ""
+"Please review the choices below. If anything is not correct, please go back "
+"and select the correct options."
+msgstr ""
+"Revizuiți alegerile făcute. Dacă ceva nu este în regulă, întoarceți-vă și "
+"selectați valorile corecte."
+
+#: ../data/ui/Assistant.ui.h:9
+msgid "Please search our database for your location:"
+msgstr "Căutați în baza de date locația dumneavoastră:"
+
+#: ../data/ui/Assistant.ui.h:10
+msgid "Review choices"
+msgstr "Revizuiți alegerile"
+
+#: ../data/ui/Assistant.ui.h:11
+msgid "Search"
+msgstr "Caută"
+
+#: ../data/ui/Assistant.ui.h:12
+msgid "Select a location"
+msgstr "Selectați o locație"
+
+#: ../data/ui/ExtendedForecast.ui.h:1
+msgid "Extended Forecast"
+msgstr "Prognoză extinsă"
+
+#: ../indicator-weather.desktop.in.h:1
+msgid ""
+"A weather indicator that displays information for one or multiple places in "
+"the world"
+msgstr ""
+"Un indicator pentru vreme care afișează informații pentru una sau mai multe "
+"locații de pe glob"
+
+#~ msgid "Humidex"
+#~ msgstr "Temperatura resimțită"
+
+#~ msgid "Visibility"
+#~ msgstr "Vizibilitate"

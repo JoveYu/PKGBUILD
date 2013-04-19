@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ROOT_PATH=`dirname $0`
+if [ -e "/usr/share/indicator-china-weather" ];then 
+	ROOT_PATH="/usr/share/indicator-china-weather"
+    python2 $ROOT_PATH/src/indicator-china-weather.py
+else   
+    cd $ROOT_PATH
+    python2 ../src/indicator-china-weather.py
+fi
+
+

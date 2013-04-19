@@ -1,0 +1,602 @@
+# Telugu translation for weather-indicator
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the weather-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: weather-indicator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-20 02:26-0700\n"
+"PO-Revision-Date: 2011-09-09 21:31+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: Telugu <te@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-09-10 05:17+0000\n"
+"X-Generator: Launchpad (build 13900)\n"
+"Language: te\n"
+
+#: ../bin/indicator-weather.py:1684
+msgid "Weather Forecast for "
+msgstr "వాతావరణ సూచన కొరకు "
+
+#: ../bin/indicator-weather.py:1739
+msgid "High"
+msgstr "అధికం"
+
+#: ../bin/indicator-weather.py:1741
+msgid "Low"
+msgstr "తక్కువ"
+
+#: ../bin/indicator-weather.py:1436
+msgid "Severe weather alert"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1466
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Praveen Illa https://launchpad.net/~telugulinux"
+
+#: ../src/service/indicator_weather_service/__init__.py:53
+#: ../src/service/indicator_weather_service/__init__.py:56
+msgid "error"
+msgstr "దోషం"
+
+#: ../bin/indicator-weather.py:1074
+msgid "Set Up Weather..."
+msgstr "వాతావరణాన్ని అమర్చు..."
+
+#. #About
+#: ../bin/indicator-weather.py:1188
+msgid "About..."
+msgstr "గురించి..."
+
+#. #Preferences
+#: ../bin/indicator-weather.py:1182
+msgid "Preferences..."
+msgstr "ప్రాధాన్యతలు..."
+
+#: ../bin/indicator-weather.py:1291 ../bin/indicator-weather.py:1293
+#: ../bin/indicator-weather.py:1295
+msgid "Refresh"
+msgstr "తాజాపరుచు"
+
+#: ../src/service/indicator_weather_service/menu.py:167
+msgid "Warning..."
+msgstr "హెచ్చరిక..."
+
+#: ../src/service/indicator_weather_service/menu.py:233
+msgid "No data available"
+msgstr "ఏ డేటా అందుబాటులో లేదు"
+
+#: ../src/service/indicator_weather_service/menu.py:340
+msgid "Forecast..."
+msgstr "వాతావరణసూచన..."
+
+#: ../src/service/indicator_weather_service/menu.py:605
+msgid "Refreshing"
+msgstr "తాజాపర్చబడుచున్నది"
+
+#: ../src/service/indicator_weather_service/menu.py:606
+msgid "please wait"
+msgstr "దయచేసి వేచివుండండి"
+
+#: ../bin/indicator-weather.py:1293
+msgid "just now"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1295
+#, python-format
+msgid "%d min. ago"
+msgstr "%d నిమిషం క్రితం"
+
+#: ../bin/indicator-weather.py:1842 ../data/ui/Assistant.ui.h:4
+msgid "Label:"
+msgstr "లేబుల్:"
+
+#: ../src/service/indicator_weather_service/weather.py:221
+msgid "Temperature:"
+msgstr "ఉష్ణోగ్రత:"
+
+#: ../src/service/indicator_weather_service/weather.py:236
+msgid "Heat index:"
+msgstr "ఉష్ణ సూచిక:"
+
+#: ../src/service/indicator_weather_service/weather.py:237
+msgid "Heat index"
+msgstr "ఉష్ణ సూచిక"
+
+#: ../src/service/indicator_weather_service/weather.py:238
+msgid "Temperature and humidity"
+msgstr "ఉష్ణోగ్రత మరియు తేమ"
+
+#: ../src/service/indicator_weather_service/weather.py:246
+msgid "Humidex:"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:247
+msgid "Humidex"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:248
+msgid "Temperature and humidity (Canada)"
+msgstr "ఉష్ణోగ్రత మరియు తేమ"
+
+#: ../src/service/indicator_weather_service/weather.py:256
+msgid "Wind chill:"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:257
+msgid "Wind chill"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:258
+msgid "Temperature and wind"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:266
+msgid "Feels like:"
+msgstr "ఇలా అనిపిస్తుంది:"
+
+#: ../src/service/indicator_weather_service/weather.py:267
+msgid "Feels like"
+msgstr "ఇలా అనిపిస్తుంది"
+
+#: ../src/service/indicator_weather_service/weather.py:268
+msgid "Heat index or wind chill"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:276
+msgid "Feels like (CA):"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:277
+msgid "Feels like (CA)"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:278
+msgid "Humidex or wind chill (Canada)"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:286
+msgid "Feels like (AU):"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:287
+msgid "Feels like (AU)"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:288
+msgid "Temperature, humidity and wind (Australia)"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:296
+msgid "Dewpoint:"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:297
+msgid "Dewpoint"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:305
+msgid "Humidity:"
+msgstr "తేమ:"
+
+#: ../bin/indicator-weather.py:755 ../bin/indicator-weather.py:761
+msgid "Humidity"
+msgstr "తేమ"
+
+#: ../src/service/indicator_weather_service/weather.py:314
+msgid "Visibility:"
+msgstr "దృగ్గోచరత:"
+
+#: ../src/service/indicator_weather_service/weather.py:315
+msgid "Visibility"
+msgstr "దృగ్గోచరము"
+
+#: ../src/service/indicator_weather_service/weather.py:316
+#: ../src/service/indicator_weather_service/weather.py:338
+msgid "Only from Yahoo!"
+msgstr "యాహూ నుండి మాత్రమే!"
+
+#: ../src/service/indicator_weather_service/weather.py:336
+msgid "Barometer:"
+msgstr "బారోమీటర్:"
+
+#: ../src/service/indicator_weather_service/weather.py:337
+msgid "Barometer"
+msgstr ""
+
+#: ../src/service/indicator_weather_service/weather.py:346
+msgid "Wind:"
+msgstr "గాలి:"
+
+#: ../bin/indicator-weather.py:845
+msgid "Wind"
+msgstr "వీచేగాలి"
+
+#: ../src/service/indicator_weather_service/weather.py:365
+msgid "Sun:"
+msgstr "సూర్యుడు:"
+
+#: ../src/service/indicator_weather_service/weather.py:366
+msgid "Sun"
+msgstr "సూర్యుడు"
+
+#: ../src/service/indicator_weather_service/weather.py:367
+msgid "Sunrise and sunset"
+msgstr "సూర్యోదయం మరియు సూర్యాస్తమయం"
+
+#: ../src/service/indicator_weather_service/weather.py:375
+msgid "Sunrise:"
+msgstr "సూర్యోదయం:"
+
+#: ../bin/indicator-weather.py:872
+msgid "Sunrise"
+msgstr "సూర్యోదయం"
+
+#: ../src/service/indicator_weather_service/weather.py:383
+msgid "Sunset:"
+msgstr "సూర్యాస్తమయం:"
+
+#: ../bin/indicator-weather.py:876
+msgid "Sunset"
+msgstr "సూర్యాస్తమయం"
+
+#: ../src/service/indicator_weather_service/weather.py:1283
+msgid "Now:"
+msgstr "ఇప్పుడు:"
+
+#: ../src/service/indicator_weather_service/weather.py:1291
+msgid "Today:"
+msgstr "నేడు:"
+
+#: ../bin/indicator-weather.py:551
+msgid "Tornado"
+msgstr "భయంకర తుఫాను"
+
+#: ../bin/indicator-weather.py:552
+msgid "Tropical storm"
+msgstr "ఉష్ణమండల తుఫాను"
+
+#: ../bin/indicator-weather.py:553
+msgid "Hurricane"
+msgstr "పెనుతుఫాను"
+
+#: ../bin/indicator-weather.py:554
+msgid "Severe thunderstorms"
+msgstr "ఉరుములతో కూడిన తీవ్రమైన గాలివాన"
+
+#: ../bin/indicator-weather.py:555
+msgid "Thunderstorms"
+msgstr "ఉరుములతో కూడిన గాలివాన"
+
+#: ../bin/indicator-weather.py:556
+msgid "Mixed rain and snow"
+msgstr "మిశ్రమ వర్షం మరియు మంచు"
+
+#. Use American meaning of sleet - see http://en.wikipedia.org/wiki/Sleet
+#: ../bin/indicator-weather.py:558
+msgid "Mixed rain and sleet"
+msgstr "మిశ్రమ వర్షం మరియు కరిగిన మంచు"
+
+#: ../bin/indicator-weather.py:559
+msgid "Mixed snow and sleet"
+msgstr ""
+
+#: ../bin/indicator-weather.py:560
+msgid "Freezing drizzle"
+msgstr "చాలా చల్లని తుంపర"
+
+#: ../bin/indicator-weather.py:561
+msgid "Drizzle"
+msgstr "తుంపర్లు"
+
+#: ../bin/indicator-weather.py:562
+msgid "Freezing rain"
+msgstr "ఘనీభవించెడు వర్షము"
+
+#: ../bin/indicator-weather.py:563 ../bin/indicator-weather.py:564
+msgid "Showers"
+msgstr "జల్లులు"
+
+#: ../bin/indicator-weather.py:565
+msgid "Snow flurries"
+msgstr ""
+
+#: ../bin/indicator-weather.py:566
+msgid "Light snow showers"
+msgstr "తేలికపాటి మంచు జల్లులు"
+
+#: ../bin/indicator-weather.py:567
+msgid "Blowing snow"
+msgstr ""
+
+#: ../bin/indicator-weather.py:568
+msgid "Snow"
+msgstr "మంచు"
+
+#: ../bin/indicator-weather.py:569
+msgid "Hail"
+msgstr "వడగళ్ళు"
+
+#: ../bin/indicator-weather.py:570
+msgid "Sleet"
+msgstr "మంచు వడగండ్లతో కూడిన వాన"
+
+#: ../bin/indicator-weather.py:571
+msgid "Dust"
+msgstr "ధూళి"
+
+#: ../bin/indicator-weather.py:572
+msgid "Foggy"
+msgstr "పొగమంచు"
+
+#: ../bin/indicator-weather.py:573
+msgid "Haze"
+msgstr "మసక"
+
+#: ../bin/indicator-weather.py:574
+msgid "Smoky"
+msgstr ""
+
+#: ../bin/indicator-weather.py:575
+msgid "Blustery"
+msgstr ""
+
+#: ../bin/indicator-weather.py:576
+msgid "Windy"
+msgstr ""
+
+#: ../bin/indicator-weather.py:577
+msgid "Cold"
+msgstr "చల్లగావుంది"
+
+#: ../bin/indicator-weather.py:578
+msgid "Cloudy"
+msgstr "మేఘావృతమైవుంది"
+
+#: ../bin/indicator-weather.py:579 ../bin/indicator-weather.py:580
+msgid "Mostly cloudy"
+msgstr "చాలామట్టుకు మేఘావృతమైవుండవచ్చు"
+
+#: ../bin/indicator-weather.py:581 ../bin/indicator-weather.py:582
+#: ../bin/indicator-weather.py:596
+msgid "Partly cloudy"
+msgstr "కొంత మేఘావృతమైవుండవచ్చు"
+
+#: ../bin/indicator-weather.py:583
+msgid "Clear"
+msgstr "నిర్మలంగా ఉంది"
+
+#: ../bin/indicator-weather.py:584
+msgid "Sunny"
+msgstr ""
+
+#: ../bin/indicator-weather.py:585 ../bin/indicator-weather.py:586
+msgid "Fair"
+msgstr ""
+
+#: ../bin/indicator-weather.py:587
+msgid "Mixed rain and hail"
+msgstr ""
+
+#: ../bin/indicator-weather.py:588
+msgid "Hot"
+msgstr ""
+
+#: ../bin/indicator-weather.py:589
+msgid "Isolated thunderstorms"
+msgstr ""
+
+#: ../bin/indicator-weather.py:590 ../bin/indicator-weather.py:591
+msgid "Scattered thunderstorms"
+msgstr "చెదురుమదురు ఉరుములతో కూడిన గాలివాన"
+
+#: ../bin/indicator-weather.py:592
+msgid "Scattered showers"
+msgstr "చెదురుమదురు జల్లులు"
+
+#: ../bin/indicator-weather.py:593 ../bin/indicator-weather.py:595
+msgid "Heavy snow"
+msgstr "దట్టమైన మంచు"
+
+#: ../bin/indicator-weather.py:594
+msgid "Scattered snow showers"
+msgstr "చెదురుమదురు మంచు జల్లులు"
+
+#: ../bin/indicator-weather.py:597
+msgid "Thundershowers"
+msgstr ""
+
+#: ../bin/indicator-weather.py:598
+msgid "Snow showers"
+msgstr "మంచు జల్లులు"
+
+#: ../bin/indicator-weather.py:599
+msgid "Isolated thundershowers"
+msgstr ""
+
+#: ../bin/indicator-weather.py:600 ../bin/indicator-weather.py:622
+#: ../bin/indicator-weather.py:627 ../bin/indicator-weather.py:645
+#: ../bin/indicator-weather.py:654 ../bin/indicator-weather.py:664
+#: ../bin/indicator-weather.py:748 ../bin/indicator-weather.py:1730
+msgid "Unknown condition"
+msgstr "తెలియని స్థితి"
+
+#: ../data/ui/Assistant.ui.h:3
+msgid "Add a location"
+msgstr "ఒక స్థానమును జతచేయి"
+
+#: ../data/ui/Assistant.ui.h:9
+msgid "Please search our database for your location:"
+msgstr "మీ స్థానము కోసం మా డేటాబేసులో శోధించండి:"
+
+#: ../data/ui/Assistant.ui.h:11
+msgid "Search"
+msgstr "వెతుకు"
+
+#: ../data/ui/Assistant.ui.h:12
+msgid "Select a location"
+msgstr "ఒక స్థానమును ఎంచుకొను"
+
+#: ../data/ui/Assistant.ui.h:7
+msgid "Please enter a name for this location:"
+msgstr "దయచేసి ఈ స్థానముకు ఒక పేరును ప్రవేశపెట్టండి:"
+
+#: ../data/ui/Assistant.ui.h:6
+msgid "Name the location"
+msgstr "స్థానమునకు పేరు ఇవ్వండి"
+
+#: ../data/ui/Assistant.ui.h:8
+msgid ""
+"Please review the choices below. If anything is not correct, please go back "
+"and select the correct options."
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:1
+msgid "<b>Home</b>"
+msgstr "<b>నివాసం</b>"
+
+#: ../data/ui/Assistant.ui.h:5
+msgid "Location:"
+msgstr "స్థానము:"
+
+#: ../data/ui/Assistant.ui.h:2
+msgid "<b>Orange, Texas</b>"
+msgstr "<b>ఆరెంజ్, టెక్సాస్</b>"
+
+#: ../data/ui/Assistant.ui.h:10
+msgid "Review choices"
+msgstr "ఎంపికలను సమీక్షించు"
+
+#: ../data/ui/PreferencesDialog.ui.h:22
+msgid "Weather Indicator Preferences"
+msgstr "వాతావరణ సూచిక ప్రాధాన్యతలు"
+
+#: ../data/ui/PreferencesDialog.ui:91
+msgid "<b>Indicator</b>"
+msgstr "<b>సూచికం</b>"
+
+#: ../data/ui/PreferencesDialog.ui:111
+msgid "Show only weather icon"
+msgstr "వాతావరణ ప్రతీకను మాత్రమే చూపించు"
+
+#: ../data/ui/PreferencesDialog.ui:127
+msgid "Show only temperature"
+msgstr "ఉష్ణోగ్రతను మాత్రమే చూపించు"
+
+#: ../data/ui/PreferencesDialog.ui:143
+msgid "Show weather icon and temperature"
+msgstr "వాతావరణ ప్రతీకను మరియు ఉష్ణోగ్రతను చూపించు"
+
+#: ../data/ui/PreferencesDialog.ui.h:1
+msgid "<b>Notifications</b>"
+msgstr "<b>ప్రకటనలు</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:15
+msgid "No notifications"
+msgstr "ఏ ప్రకటనలు లేవు"
+
+#: ../data/ui/PreferencesDialog.ui.h:16
+msgid "Only use notifications to give severe weather alerts"
+msgstr "తీవ్రమైన వాతావరణ హెచ్చరికలను ఇచ్చుటకు మాత్రమే ప్రకటనలను వాడు"
+
+#: ../data/ui/PreferencesDialog.ui.h:21
+msgid "Use notifications to give every weather condition change"
+msgstr "ప్రతీ వాతావరణ స్థితి మార్పును ఇచ్చుటకు ప్రకటనలను వాడు"
+
+#: ../data/ui/PreferencesDialog.ui:268
+msgid "Apply for all locations"
+msgstr "అన్ని స్థానములకు అనువర్తించు"
+
+#: ../data/ui/PreferencesDialog.ui.h:3
+msgid "<b>Weather Data Source</b>"
+msgstr "<b>వాతావరణ సమాచార వనరు</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:8
+msgid "Google"
+msgstr "గూగుల్"
+
+#: ../data/ui/PreferencesDialog.ui.h:23
+msgid "Yahoo!"
+msgstr "యాహూ!"
+
+#: ../data/ui/PreferencesDialog.ui.h:20
+msgid "Update every"
+msgstr "నవీకరించు ప్రతీ"
+
+#: ../data/ui/PreferencesDialog.ui.h:24
+msgid "minutes"
+msgstr "నిమిషాలు"
+
+#: ../data/ui/PreferencesDialog.ui.h:7
+msgid "General"
+msgstr "సాధారణ"
+
+#: ../data/ui/PreferencesDialog.ui:460
+msgid "Show forecast"
+msgstr "భావిసూచనను చూపించు"
+
+#: ../data/ui/PreferencesDialog.ui:475
+msgid "Show weather for all locations"
+msgstr "అన్ని స్థానములకు వాతావరణం చూపించు"
+
+#: ../data/ui/PreferencesDialog.ui:490
+msgid "Hide irrelevant fields"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui:520
+msgid "Weather report fields to show"
+msgstr "చూపించవలసిన వాతావరణ నివేదిక క్షేత్రాలు"
+
+#: ../data/ui/PreferencesDialog.ui:604
+msgid "Menu"
+msgstr "మెనూ"
+
+#: ../data/ui/PreferencesDialog.ui.h:2
+msgid "<b>Temperature Scale</b>"
+msgstr "<b>ఉష్ణోగ్రత కొలమానం</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:9
+msgid "Imperial (°F)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:17
+msgid "SI (metric, °C)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:4
+msgid "<b>Wind Speed Unit</b>"
+msgstr "<b>గాలి వేగం ప్రమాణం</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:13
+msgid "Meter per second (m/s)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:14
+msgid "Miles per hour (mph)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui:755
+msgid "Km per hour (kph)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:5
+msgid "Beaufort"
+msgstr "బ్యూపోర్ట్"
+
+#: ../data/ui/PreferencesDialog.ui.h:11
+msgid "Knots"
+msgstr "నాట్స్"
+
+#: ../data/ui/PreferencesDialog.ui.h:19
+msgid "Units"
+msgstr "ప్రమాణాలు"
+
+#: ../data/ui/PreferencesDialog.ui.h:12
+msgid "Locations"
+msgstr "స్థానములు"

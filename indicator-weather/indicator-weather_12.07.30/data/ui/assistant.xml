@@ -1,0 +1,8 @@
+<glade-catalog name="assistant" domain="glade-3" 
+               depends="gtk+" version="1.0">
+  <glade-widget-classes>
+    <glade-widget-class title="Add a Place" name="Assistant" 
+                        generic-name="Assistant" parent="GtkAssistant"
+                        icon-name="widget-gtk-assistant"/>
+  </glade-widget-classes>
+</glade-catalog>

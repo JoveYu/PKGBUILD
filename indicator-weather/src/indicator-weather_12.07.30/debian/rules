@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+DEB_PYTHON2_MODULE_PACKAGES:=indicator-weather
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/python-distutils.mk

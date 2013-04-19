@@ -1,0 +1,7 @@
+project = indicator-weather
+version = 0.4.3
+template = ubuntu-application
+lp_id = weather-indicator
+ppa = weather-indicator/weather-indicator-experimental
+bzrbranch = lp:weather-indicator
+dependencies = 

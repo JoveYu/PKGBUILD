@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="apps.indicators.weather" path="/apps/indicators/weather/">
+    <key type="i" name="indicator-display">
+      <default>0</default>
+      <summary>Display icon/label in the indicator</summary>
+      <description>0 - display icon only, 1 - display label only, 2 - display both icon and text</description>
+    </key>
+    <key type="s" name="notifications">
+      <default>'N'</default>
+      <summary>Notifications</summary>
+      <description>Notifications</description>
+    </key>
+    <key type="b" name="global-notifications">
+      <default>false</default>
+      <summary>Global notifications</summary>
+      <description>Global notifications</description>
+    </key>
+    <key type="s" name="weather-source">
+      <default>'Y'</default>
+      <summary>Weather source</summary>
+      <description>Weather source</description>
+    </key>
+    <key type="i" name="refresh-rate">
+      <default>15</default>
+      <summary>Refresh rate</summary>
+      <description>Refresh rate</description>
+    </key>
+    <key type="s" name="metric-system">
+      <default>'S'</default>
+      <summary>metric system</summary>
+      <description>metric system</description>
+    </key>
+    <key type="s" name="wind-unit">
+      <default>'mph'</default>
+      <summary>wind unit</summary>
+      <description>wind unit</description>
+    </key>
+    <key type="b" name="show-forecast">
+      <default>true</default>
+      <summary>show forecast</summary>
+      <description>show forecast</description>
+    </key>
+    <key type="b" name="show-locations">
+      <default>false</default>
+      <summary>show locations</summary>
+      <description>show locations</description>
+    </key>
+    <key type="b" name="filter-fields">
+      <default>true</default>
+      <summary>filter fields</summary>
+      <description>filter fields</description>
+    </key>
+    <key type="s" name="condition-fields">
+      <default>'["heat-index", "humidity", "wind", "sun"]'</default>
+      <summary>condition fields</summary>
+      <description>condition fields</description>
+    </key>
+    <key type="i" name="placechosen">
+      <default>0</default>
+      <summary>placechosen</summary>
+      <description>placechosen</description>
+    </key>
+    <key type="s" name="places">
+      <default>'[]'</default>
+      <summary>places</summary>
+      <description>places</description>
+    </key>
+    <key type="s" name="weather">
+      <default>'{}'</default>
+      <summary>Cached weather data</summary>
+      <description>Cache weather data</description>
+    </key>
+    <key type="s" name="locations">
+      <default>'{}'</default>
+      <summary>location data</summary>
+      <description>location data</description>
+    </key>
+  </schema>
+</schemalist>

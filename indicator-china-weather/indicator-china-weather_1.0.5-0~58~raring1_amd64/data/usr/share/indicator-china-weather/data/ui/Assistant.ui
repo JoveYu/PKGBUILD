@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-requires assistant 1.0 -->
+  <!-- interface-naming-policy project-wide -->
+  <!-- interface-local-resource-path ../media -->
+  <object class="Assistant" id="assistant">
+    <property name="border_width">12</property>
+    <property name="title" translatable="yes">编辑地点</property>
+    <property name="window_position">mouse</property>
+    <property name="default_width">400</property>
+    <property name="default_height">200</property>
+    <property name="resizable">False</property>
+    <signal name="apply" handler="on_apply"/>
+    <signal name="cancel" handler="on_cancel"/>
+    <!--<child>
+      <placeholder/>
+    </child> -->
+    <child>
+      <object class="GtkVBox" id="placeinput">
+        <property name="visible">True</property>
+        <property name="border_width">12</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkLabel" id="lblplaceinput">
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="yalign">0</property>
+            <property name="ypad">6</property>
+            <property name="label" translatable="yes">请先找到你所在的地点（拼音即可）:</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">word-char</property>
+          </object>
+          <packing>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+            <object class="GtkHBox" id="city_input_vbox">
+                <property name="visible">True</property>
+                <property name="border_width">12</property>
+                <property name="spacing">6</property>
+                <child>
+                    <object class="GtkComboBoxEntry" id="combolocations">
+                        <property name="visible">True</property>
+                        <signal name="changed" handler="on_select_city"/>
+                        <child internal-child="entry"> 
+                            <object class="GtkEntry" id="entrylocation"> 
+                                <property name="visible">True</property> 
+                                <property name="can_focus">True</property>
+                            </object> 
+                        </child> 
+                    </object>
+                    <packing>
+                        <property name="position">0</property>
+                    </packing>
+                </child>
+                <child>
+                    <object class="GtkButton" id="getcities">
+                        <property name="visible">True</property>
+                        <property name="label" translatable="yes">查找</property>
+                        <signal name="clicked" handler="on_get_city_names"/>
+                    </object>
+                    <packing>
+                        <property name="position">1</property>
+                    </packing>
+                </child>
+            </object>
+            <packing>
+                <property name="position">1</property>
+            </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="title" translatable="yes">选择一个地点</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkVBox" id="label">
+        <property name="visible">True</property>
+        <property name="border_width">12</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkLabel" id="lblwould">
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">请输入该地点的名称:</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entrylbl">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">•</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="title" translatable="yes">命名</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkVBox" id="review">
+        <property name="visible">True</property>
+        <property name="border_width">12</property>
+        <child>
+          <object class="GtkLabel" id="lblreview">
+            <property name="visible">True</property>
+            <property name="xalign">0</property>
+            <property name="ypad">6</property>
+            <property name="label" translatable="yes">请仔细阅读下面的选择。如果有不正确的地方，请返回并选择正确的选项。</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">word-char</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkAlignment" id="alignment1">
+            <property name="visible">True</property>
+            <property name="left_padding">12</property>
+            <child>
+              <object class="GtkVBox" id="vbox1">
+                <property name="visible">True</property>
+                <child>
+                  <object class="GtkHBox" id="revlabel">
+                    <property name="visible">True</property>
+                    <property name="spacing">5</property>
+                    <child>
+                      <object class="GtkArrow" id="arrow3">
+                        <property name="visible">True</property>
+                        <property name="sensitive">False</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="lbl3">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">标签:</property>
+                        <property name="use_markup">True</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="labellbl">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">&lt;b&gt;Home&lt;/b&gt;</property>
+                        <property name="use_markup">True</property>
+                      </object>
+                      <packing>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkHBox" id="revplace">
+                    <property name="visible">True</property>
+                    <property name="spacing">5</property>
+                    <child>
+                      <object class="GtkArrow" id="arrow2">
+                        <property name="visible">True</property>
+                        <property name="sensitive">False</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="lbl2">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">地点:</property>
+                        <property name="use_markup">True</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="placelbl">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">&lt;b&gt;Orange, Texas&lt;/b&gt;</property>
+                        <property name="use_markup">True</property>
+                      </object>
+                      <packing>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+      <packing>
+        <property name="page_type">confirm</property>
+        <property name="title" translatable="yes">回顾选择</property>
+      </packing>
+    </child>
+  </object>
+</interface>

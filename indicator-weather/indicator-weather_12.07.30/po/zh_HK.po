@@ -1,0 +1,480 @@
+# Chinese (Hong Kong) translation for weather-indicator
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the weather-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: weather-indicator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-06-22 02:48-0700\n"
+"PO-Revision-Date: 2011-10-02 13:02+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-03 04:46+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+
+#: ../data/ui/PreferencesDialog.ui.h:1
+msgid "<b>Notifications</b>"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:2
+msgid "<b>Temperature Scale</b>"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:3
+msgid "<b>Weather Data Source</b>"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:4
+msgid "<b>Wind Speed Unit</b>"
+msgstr "<b>風速單位</b>"
+
+#: ../data/ui/PreferencesDialog.ui.h:5
+msgid "Beaufort"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:6
+msgid "Enable the Weather Indicator Applet"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:7
+msgid "General"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:8
+msgid "Google"
+msgstr "Google"
+
+#: ../data/ui/PreferencesDialog.ui.h:9
+msgid "Imperial (°F)"
+msgstr "華氏 (°F)"
+
+#: ../data/ui/PreferencesDialog.ui.h:10
+msgid "Km per hour (km/h)"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:11
+msgid "Knots"
+msgstr "海里"
+
+#: ../data/ui/PreferencesDialog.ui.h:12
+msgid "Locations"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:13
+msgid "Meter per second (m/s)"
+msgstr "每秒公尺 (m/s)"
+
+#: ../data/ui/PreferencesDialog.ui.h:14
+msgid "Miles per hour (mph)"
+msgstr "每小時英里 (mph)"
+
+#: ../data/ui/PreferencesDialog.ui.h:15
+msgid "No notifications"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:16
+msgid "Only use notifications to give severe weather alerts"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:17
+msgid "SI (metric, °C)"
+msgstr "攝氏 (國際度量衡，°C)"
+
+#: ../data/ui/PreferencesDialog.ui.h:18
+msgid "Show temperature near indicator"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:19
+msgid "Units"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:20
+msgid "Update every"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:21
+msgid "Use notifications to give every weather condition change"
+msgstr ""
+
+#: ../data/ui/PreferencesDialog.ui.h:22
+msgid "Weather Indicator Preferences"
+msgstr "偏好設定"
+
+#: ../data/ui/PreferencesDialog.ui.h:23
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: ../data/ui/PreferencesDialog.ui.h:24
+msgid "minutes"
+msgstr "分鐘"
+
+#: ../bin/indicator-weather.py:463
+msgid "Unknown error occurred while picking up weather data"
+msgstr ""
+
+#: ../bin/indicator-weather.py:551
+msgid "Tornado"
+msgstr "龍捲風"
+
+#: ../bin/indicator-weather.py:552
+msgid "Tropical storm"
+msgstr "熱帶風暴"
+
+#: ../bin/indicator-weather.py:553
+msgid "Hurricane"
+msgstr "颶風"
+
+#: ../bin/indicator-weather.py:554
+msgid "Severe thunderstorms"
+msgstr "強烈雷暴"
+
+#: ../bin/indicator-weather.py:555
+msgid "Thunderstorms"
+msgstr "雷暴"
+
+#: ../bin/indicator-weather.py:556
+msgid "Mixed rain and snow"
+msgstr "雨加雪"
+
+#. Use American meaning of sleet - see http://en.wikipedia.org/wiki/Sleet
+#: ../bin/indicator-weather.py:558
+msgid "Mixed rain and sleet"
+msgstr "雨加雨雪"
+
+#: ../bin/indicator-weather.py:559
+msgid "Mixed snow and sleet"
+msgstr "雪加雨雪"
+
+#: ../bin/indicator-weather.py:560
+msgid "Freezing drizzle"
+msgstr "毛毛雨，低於冰點"
+
+#: ../bin/indicator-weather.py:561
+msgid "Drizzle"
+msgstr "毛毛雨"
+
+#: ../bin/indicator-weather.py:562
+msgid "Freezing rain"
+msgstr "降雨，低於冰點"
+
+#: ../bin/indicator-weather.py:563 ../bin/indicator-weather.py:564
+msgid "Showers"
+msgstr "驟雨"
+
+#: ../bin/indicator-weather.py:565
+msgid "Snow flurries"
+msgstr "飄雪"
+
+#: ../bin/indicator-weather.py:566
+msgid "Light snow showers"
+msgstr ""
+
+#: ../bin/indicator-weather.py:567
+msgid "Blowing snow"
+msgstr ""
+
+#: ../bin/indicator-weather.py:568
+msgid "Snow"
+msgstr "雪"
+
+#: ../bin/indicator-weather.py:569
+msgid "Hail"
+msgstr "冰雹"
+
+#: ../bin/indicator-weather.py:570
+msgid "Sleet"
+msgstr "冰雨"
+
+#: ../bin/indicator-weather.py:571
+msgid "Dust"
+msgstr "灰塵"
+
+#: ../bin/indicator-weather.py:572
+msgid "Foggy"
+msgstr "霧"
+
+#: ../bin/indicator-weather.py:573
+msgid "Haze"
+msgstr "煙霞"
+
+#: ../bin/indicator-weather.py:574
+msgid "Smoky"
+msgstr ""
+
+#: ../bin/indicator-weather.py:575
+msgid "Blustery"
+msgstr "大風"
+
+#: ../bin/indicator-weather.py:576
+msgid "Windy"
+msgstr "有風"
+
+#: ../bin/indicator-weather.py:577
+msgid "Cold"
+msgstr "寒冷"
+
+#: ../bin/indicator-weather.py:578
+msgid "Cloudy"
+msgstr "多雲"
+
+#: ../bin/indicator-weather.py:579 ../bin/indicator-weather.py:580
+msgid "Mostly cloudy"
+msgstr "大致多雲"
+
+#: ../bin/indicator-weather.py:581 ../bin/indicator-weather.py:582
+#: ../bin/indicator-weather.py:596
+msgid "Partly cloudy"
+msgstr "局部有雲"
+
+#: ../bin/indicator-weather.py:583
+msgid "Clear"
+msgstr "無雲"
+
+#: ../bin/indicator-weather.py:584
+msgid "Sunny"
+msgstr "天晴"
+
+#: ../bin/indicator-weather.py:585 ../bin/indicator-weather.py:586
+msgid "Fair"
+msgstr "晴朗"
+
+#: ../bin/indicator-weather.py:587
+msgid "Mixed rain and hail"
+msgstr "雨加冰雹"
+
+#: ../bin/indicator-weather.py:588
+msgid "Hot"
+msgstr "炎熱"
+
+#: ../bin/indicator-weather.py:589
+msgid "Isolated thunderstorms"
+msgstr "局部雷暴"
+
+#: ../bin/indicator-weather.py:590 ../bin/indicator-weather.py:591
+msgid "Scattered thunderstorms"
+msgstr "間中有雷暴"
+
+#: ../bin/indicator-weather.py:592
+msgid "Scattered showers"
+msgstr "間中有雨"
+
+#: ../bin/indicator-weather.py:593 ../bin/indicator-weather.py:595
+msgid "Heavy snow"
+msgstr "大雪"
+
+#: ../bin/indicator-weather.py:594
+msgid "Scattered snow showers"
+msgstr "間中有雪"
+
+#: ../bin/indicator-weather.py:597
+msgid "Thundershowers"
+msgstr "雷陣雨"
+
+#: ../bin/indicator-weather.py:598
+msgid "Snow showers"
+msgstr "陣雪"
+
+#: ../bin/indicator-weather.py:599
+msgid "Isolated thundershowers"
+msgstr "局部雷陣雨"
+
+#: ../bin/indicator-weather.py:600 ../bin/indicator-weather.py:622
+#: ../bin/indicator-weather.py:627 ../bin/indicator-weather.py:645
+#: ../bin/indicator-weather.py:654 ../bin/indicator-weather.py:664
+#: ../bin/indicator-weather.py:748 ../bin/indicator-weather.py:1730
+msgid "Unknown condition"
+msgstr ""
+
+#: ../bin/indicator-weather.py:755 ../bin/indicator-weather.py:761
+msgid "Humidity"
+msgstr "濕度"
+
+#: ../bin/indicator-weather.py:782
+msgid "Pressure"
+msgstr ""
+
+#: ../bin/indicator-weather.py:812
+msgid "Temperature"
+msgstr ""
+
+#: ../bin/indicator-weather.py:836 ../bin/indicator-weather.py:837
+#: ../bin/indicator-weather.py:838
+msgid "Unknown"
+msgstr ""
+
+#: ../bin/indicator-weather.py:845
+msgid "Wind"
+msgstr "風"
+
+#: ../bin/indicator-weather.py:872
+msgid "Sunrise"
+msgstr "日出"
+
+#: ../bin/indicator-weather.py:876
+msgid "Sunset"
+msgstr "日落"
+
+#. Short wind direction - north
+#: ../bin/indicator-weather.py:889
+msgid "N"
+msgstr ""
+
+#: ../bin/indicator-weather.py:891
+msgid "NE"
+msgstr ""
+
+#: ../bin/indicator-weather.py:893
+msgid "E"
+msgstr ""
+
+#: ../bin/indicator-weather.py:895
+msgid "SE"
+msgstr ""
+
+#: ../bin/indicator-weather.py:897
+msgid "S"
+msgstr ""
+
+#: ../bin/indicator-weather.py:899
+msgid "SW"
+msgstr ""
+
+#: ../bin/indicator-weather.py:901
+msgid "W"
+msgstr ""
+
+#: ../bin/indicator-weather.py:903
+msgid "NW"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1074
+msgid "Set Up Weather..."
+msgstr "設定天氣..."
+
+#: ../bin/indicator-weather.py:1176
+msgid "Forecast"
+msgstr ""
+
+#. #Preferences
+#: ../bin/indicator-weather.py:1182
+msgid "Preferences..."
+msgstr "偏好設定..."
+
+#. #About
+#: ../bin/indicator-weather.py:1188
+msgid "About..."
+msgstr "關於..."
+
+#: ../bin/indicator-weather.py:1289
+msgid "Refreshing, please wait"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1291 ../bin/indicator-weather.py:1293
+#: ../bin/indicator-weather.py:1295
+msgid "Refresh"
+msgstr "更新"
+
+#: ../bin/indicator-weather.py:1293
+msgid "just now"
+msgstr "剛剛"
+
+#: ../bin/indicator-weather.py:1295
+#, python-format
+msgid "%d min. ago"
+msgstr "%d分鐘前"
+
+#: ../bin/indicator-weather.py:1436
+msgid "Severe weather alert"
+msgstr "恶劣天气警报"
+
+#: ../bin/indicator-weather.py:1454 ../indicator-weather.desktop.in.h:2
+msgid "Weather Indicator"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1466
+msgid "translator-credits"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1684
+msgid "Weather Forecast for "
+msgstr "天氣預報： "
+
+#: ../bin/indicator-weather.py:1739
+msgid "High"
+msgstr "最高"
+
+#: ../bin/indicator-weather.py:1741
+msgid "Low"
+msgstr "最低"
+
+#: ../bin/indicator-weather.py:1842 ../data/ui/Assistant.ui.h:4
+msgid "Label:"
+msgstr ""
+
+#: ../bin/indicator-weather.py:1932
+msgid "Another instance of this program is already running"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:1
+msgid "<b>Home</b>"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:2
+msgid "<b>Orange, Texas</b>"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:3
+msgid "Add a location"
+msgstr "添加一個地點"
+
+#: ../data/ui/Assistant.ui.h:5
+msgid "Location:"
+msgstr "位置:"
+
+#: ../data/ui/Assistant.ui.h:6
+msgid "Name the location"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:7
+msgid "Please enter a name for this location:"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:8
+msgid ""
+"Please review the choices below. If anything is not correct, please go back "
+"and select the correct options."
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:9
+msgid "Please search our database for your location:"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:10
+msgid "Review choices"
+msgstr ""
+
+#: ../data/ui/Assistant.ui.h:11
+msgid "Search"
+msgstr "尋找"
+
+#: ../data/ui/Assistant.ui.h:12
+msgid "Select a location"
+msgstr "選擇一個位置"
+
+#: ../data/ui/ExtendedForecast.ui.h:1
+msgid "Extended Forecast"
+msgstr ""
+
+#: ../indicator-weather.desktop.in.h:1
+msgid ""
+"A weather indicator that displays information for one or multiple places in "
+"the world"
+msgstr ""
+
+#~ msgid "Visibility"
+#~ msgstr "能見度"
