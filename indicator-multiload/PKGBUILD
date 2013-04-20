@@ -1,0 +1,23 @@
+# Maintainer: Jove Yu < yushijun110[AT]gmail.com >
+
+pkgname=indicator-multiload
+pkgver=0.3
+pkgrel=1
+pkgdesc="Graphical system load indicator for CPU, ram, etc."
+arch=('i686' 'x86_64')
+url="https://launchpad.net/indicator-multiload"
+license=('GPL')
+groups=('unity-extra')
+depends=( 'libappindicator' 'python2' 'python2-dbus' 'python2-gobject' 'pygtk' 'python2-gconf' 'gsettings-desktop-schemas')
+makedepends=('python2-distutils-extra')
+install=indicator-multiload.install
+source=("https://launchpad.net/indicator-multiload/stable/0.3/+download/${pkgname}-${pkgver}.tar.gz")
+md5sums=('e2ee71af814e0207350d3870e6645669')
+
+package() {
+  cd "${srcdir}/${pkgname}-${pkgver}"
+  ./autogen.sh
+  ./configure --prefix=/usr
+  make DESTDIR=$pkgdir install
+}
+
