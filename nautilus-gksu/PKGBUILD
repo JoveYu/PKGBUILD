@@ -14,6 +14,8 @@ license=('GPL')
 depends=('libgksu>=2.0.12' 'xorg-xauth')
 makedepends=('gtk-doc' 'intltool')
 options=('!libtool')
+source=(http://people.debian.org/~kov/gksu/${_pkgname}-${pkgver}.tar.gz)
+md5sums=('cacbcac3fc272dce01c6ea38354489e2')
 
 build() {
   cd "${srcdir}/${_pkgname}-${pkgver}"
