@@ -18,9 +18,6 @@ build(){
 package() {
 	cd "$srcdir"/${pkgname}-0.1+${pkgver}
 	python2 setup.py install --root="$pkgdir/" --optimize=1
-	
-	#cd ${pkgdir}/usr/lib/python2.7/site-packages/deepin_utils/
-    #sed -i 's_#! /usr/bin/env python$_#! /usr/bin/env python2_' *.py   
 }
 
 
