@@ -11,11 +11,11 @@ groups=('unity-extra')
 depends=( 'libappindicator' 'python2' 'python2-dbus' 'python2-gobject' 'pygtk' 'python2-gconf' 'gsettings-desktop-schemas')
 makedepends=('python2-distutils-extra')
 install=indicator-multiload.install
-source=("https://launchpad.net/indicator-multiload/stable/0.3/+download/${pkgname}-${pkgver}.tar.gz")
-md5sums=('e2ee71af814e0207350d3870e6645669')
+source=("https://launchpad.net/~indicator-multiload/+archive/stable-daily/+files/indicator-multiload_0.3-0+81~15~20~raring1.tar.gz")
+md5sums=('38990c0f979dd684203c7a743216f42a')
 
 package() {
-  cd "${srcdir}/${pkgname}-${pkgver}"
+  cd ${srcdir}/reci*
   ./autogen.sh
   ./configure --prefix=/usr
   make DESTDIR=$pkgdir install
